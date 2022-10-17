@@ -30,6 +30,14 @@ const SHeader = styled.header`
             }
         }
     }
+.title{
+    a{
+      color:aqua;
+      display :flex ;
+    text-decoration: none;
+    
+    }
+}
 
 `
 
