@@ -1,5 +1,5 @@
 import Link from "next/link";
-import SHeader from "../styledComponents/styles";
+import SHeader from "../styledComponents/sHeader";
 import Image from "next/image"
 import logo from "../public/logo.png"
 export default function Header() {
@@ -15,7 +15,7 @@ export default function Header() {
         </div>
             <div className="menu"><ul>
                 <li>
-                    <Link href={"/projetos/front"}>projetos frontend</Link>
+                    <Link href={"/projetos/"}>projetos frontend</Link>
                 </li>
                 <li>
                     <Link href={"/projetos/back"}>projetos backend</Link>
