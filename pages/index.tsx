@@ -3,37 +3,8 @@ import Section from '../components/section'
 
 const Home: NextPage = () => {
   return (<>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
-      <Section></Section>
+      <Section type={'about'}></Section>
+  
 
 
   </>)

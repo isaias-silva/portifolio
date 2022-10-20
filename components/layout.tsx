@@ -10,9 +10,13 @@ const GlobalStyle = createGlobalStyle`
   
  }
   body{
-    background-image:url('https://t4.ftcdn.net/jpg/02/92/01/37/360_F_292013767_ydul6gWvbBOIz5OGGpX7VEoBUhbUiKJX.jpg');
+    background-image:url('https://i.imgur.com/O3Bxs16.gif');
+background-attachment: fixed;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-size: cover;
     margin: 0;
   padding: 0;
+  
 
   }
   

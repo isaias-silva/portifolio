@@ -8,6 +8,7 @@ const SHeader = styled.header`
     justify-content: space-between;
     background-color: black;
     border-bottom: 1px solid #2F2F2F;
+    z-index: 100000000000;
     color:aqua;
     .title, .menu{
         display: flex;
