@@ -12,11 +12,13 @@ box-shadow: 10px 10px 20px #000;
     .perfil{
     overflow: hidden;
     border:1px solid aqua;
-    box-shadow: 0 0 30px #00ffec;
+    box-shadow: -8px -8px 20px aqua, 12px 12px 20px #6E00FF;
+  
     width: 200px;
     border-radius: 100px;
     float: right;
     position: relative;
+
     }
     .stack{
         display: flex;
@@ -28,6 +30,7 @@ box-shadow: 10px 10px 20px #000;
             transition: 0.2s ease-in;
             :hover{
                 transform: scale(1.5);
+                cursor: pointer;
             }
         }
     }
@@ -37,5 +40,6 @@ box-shadow: 10px 10px 20px #000;
     p{
         text-shadow: 1px 1px 0 aqua;
     }
+    
 `
 export default Ssection

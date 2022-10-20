@@ -27,6 +27,6 @@ export default function Layout({ children }: any) {
     <GlobalStyle />
     <Header />
     {children}
-    <Footer></Footer>
+    <Footer />
   </>
 }
