@@ -12,7 +12,7 @@ export default function Boxmsg({ icon, text,title,onClose }: { icon?: string, te
                 <div className="box">
 
                     <img src={icon} alt="" />
-                    <h3>{title}</h3>
+                    <h3>{title}:</h3>
                     <p>{text}</p>
                     <button className='close' onClick={onClose}>x</button>
                 </div>

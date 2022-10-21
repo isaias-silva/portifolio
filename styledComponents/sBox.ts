@@ -21,6 +21,7 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     position: relative;
+    
     img{width: 100px;
     
     }

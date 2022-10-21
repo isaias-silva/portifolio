@@ -9,6 +9,7 @@ color:#fff;
 border-radius: 40px;
 padding: 10px;
 box-shadow: 10px 10px 20px #000;
+
     .perfil{
     overflow: hidden;
     border:1px solid aqua;
@@ -28,11 +29,21 @@ box-shadow: 10px 10px 20px #000;
         img{
             width: 50px;
             transition: 0.2s ease-in;
+            
             :hover{
                 transform: scale(1.5);
                 cursor: pointer;
             }
         }
+    }
+    .contacts{
+        display: flex;
+        width: 50%;
+        flex-wrap: wrap;
+       justify-content: space-around;
+       a{
+        margin:1px;
+       }
     }
     h2{
         text-shadow: 2px 2px 0 purple;
