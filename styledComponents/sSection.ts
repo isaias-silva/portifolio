@@ -10,18 +10,22 @@ border-radius: 40px;
 padding: 10px;
 box-shadow: 10px 10px 20px #000;
 position: relative;
-.exp{
-    box-shadow: 2px 2px 10px aqua,-2px -2px 10px purple;
-    margin-top: 5px;
-    margin-left: 5px;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: #01010199;
-    h3{
-        text-shadow: 1px 1px 1px aqua;
-    }
-    p{
-        text-shadow: 1px 1px 1px purple;
+div.legend{
+    position: relative;
+    width: 50%;
+    .exp{
+        box-shadow: 2px 2px 10px aqua,-2px -2px 10px purple;
+        margin-top: 5px;
+        margin-left: 5px;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #01010199;
+        h3{
+            text-shadow: 1px 1px 1px aqua;
+        }
+        p{
+            text-shadow: 1px 1px 1px purple;
+        }
     }
 }
 
@@ -31,11 +35,7 @@ img.wall{
     position: absolute ;
     right:0;
 }
-div.legend{
-    position: absolute ;
-    left:0;
-    width: 50%;
-}
+
     .perfil{
     overflow: hidden;
     border:1px solid aqua;
@@ -77,6 +77,45 @@ div.legend{
     p{
         text-shadow: 1px 1px 0 aqua;
     }
+    @media screen and (max-width: 745px){
+        h2{
+            border-bottom: 1px inset aqua;
+            box-shadow: 0 10px 10px #000;
+        }
+
+  text-align: center;
+
+  .perfil{
+    float:none;
+    margin:auto;
+    width: 30%;
+  }
+  .stack,.contacts{
+    width: 100%;
+  }
+ul{
+    li{list-style: none;
+    }
+}
+
+   img.wall{
+    width: 40%;
+    position: relative;
+ margin: auto;
+}
+div.legend{
+  width  :90% ;
+  margin: auto;
+ display: flex;
+ flex-wrap: wrap;
+ 
+    justify-content: space-between;
+    .exp{
+        width: 800px;
+    }
+}
+
+}
     
 `
 export default Ssection

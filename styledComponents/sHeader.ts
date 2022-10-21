@@ -65,6 +65,24 @@ const SHeader = styled.header`
     }
     }
 }
+@media screen and (max-width: 745px){
+   height: 120px;
+    position: relative;
+    top:0;
+   .menu{
+    ul{
+        li{margin:0;
+        top:0;
+        font-size: 12px;
+        display: block;
+        border:none;
+        :hover{
+            border: none;
+        }
+        }
+    }
+   }
+}
 
 `
 
