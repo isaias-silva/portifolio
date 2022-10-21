@@ -9,7 +9,33 @@ color:#fff;
 border-radius: 40px;
 padding: 10px;
 box-shadow: 10px 10px 20px #000;
+position: relative;
+.exp{
+    box-shadow: 2px 2px 10px aqua,-2px -2px 10px purple;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #01010199;
+    h3{
+        text-shadow: 1px 1px 1px aqua;
+    }
+    p{
+        text-shadow: 1px 1px 1px purple;
+    }
+}
 
+img.wall{
+    width: 40%;
+    border-radius: 10px;
+    position: absolute ;
+    right:0;
+}
+div.legend{
+    position: absolute ;
+    left:0;
+    width: 50%;
+}
     .perfil{
     overflow: hidden;
     border:1px solid aqua;

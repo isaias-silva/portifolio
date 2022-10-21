@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import SHeader from "../styledComponents/sHeader";
 import Image from "next/image"
@@ -6,7 +7,7 @@ export default function Header() {
     return <SHeader>
             <div className="title">
             <Link href={'/'}>
-            <a>            <Image src={logo} alt="logo" width={85} height={80}/>
+            <a>           <img src={logo.src} alt="logo" />
             <h1>zack santos</h1>
 
             </a>

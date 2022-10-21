@@ -10,7 +10,7 @@ transition: 1s ease-in-out;
 display: flex;
 justify-content: center;
 align-items: center;
-
+z-index: 100000;
 .box{
     background-color:#222;
     padding: 5px;

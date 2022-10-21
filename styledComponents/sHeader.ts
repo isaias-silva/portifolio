@@ -37,11 +37,32 @@ const SHeader = styled.header`
         }
     }
 .title{
+    justify-content: center;
+    align-items: center;
     a{
       color:aqua;
       display :flex ;
     text-decoration: none;
-    
+    img{width:80px;
+        height:80px;
+        border-radius: 100%;
+        box-shadow: 5px 1px 1px blue;
+        transition: 0.2s linear;
+    }
+    h1{text-shadow:5px 1px 1px blue;
+        transition: 0.2s linear;
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    :hover{
+        img{
+            box-shadow: 5px 1px 1px purple;
+            
+        }
+        h1{
+            text-shadow:5px 1px 1px purple;
+        }
+    }
     }
 }
 
