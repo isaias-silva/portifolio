@@ -10,7 +10,7 @@ transition: 1s ease-in-out;
 display: flex;
 justify-content: center;
 align-items: center;
-z-index: 100000;
+z-index: 100000000000000;
 .box{
     background-color:#222;
     padding: 5px;
@@ -41,6 +41,12 @@ z-index: 100000;
         color:#fff
        }
     }
+
+}
+@media screen and (max-width: 745px){
+  .box{
+    width: 70%;
+  }
 }
 `
 export default Sbox
