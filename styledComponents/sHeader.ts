@@ -46,33 +46,79 @@ const SHeader = styled.header`
     img{width:80px;
         height:80px;
         border-radius: 100%;
-        box-shadow: 5px 1px 1px blue;
+        box-shadow: 14px 1px 1px blue;
         transition: 0.2s linear;
     }
-    h1{text-shadow:5px 1px 1px blue;
+    h1{text-shadow:3px 1px 1px blue;
         transition: 0.2s linear;
         font-size: 24px;
         margin-top: 30px;
     }
     :hover{
         img{
-            box-shadow: 5px 1px 1px purple;
+            box-shadow: 16px 1px 1px purple;
             
         }
         h1{
-            text-shadow:5px 1px 1px purple;
+            text-shadow:3px 1px 1px purple;
         }
     }
     }
 }
+.menuhamburguer{
+    display: none;
+    position: absolute;
+    right: 0;
+    top:20px;
+    span{
+        position: relative;
+        display: block;
+        width: 30px;
+        height: 4px;
+        background-color: aqua;
+        box-shadow: 1px 2px 0 purple;
+        margin: 4px;
+        border-radius: 10px;
+        transition: 0.2s linear;
+       
+    }
+    #burguer{
+        display: none;
+        :checked ~ span{
+                    :nth-child(2){
+                 
+                        rotate: 45deg;
+                        
+                    }
+                    :nth-child(3){
+                        opacity: 0;
+                    }
+                    :nth-child(4){
+                        rotate: -45deg;
+                        top:-15px
+                    }
+                    
+                
+            
+        }
+    }
+}
 @media screen and (max-width: 745px){
-   height: 120px;
+   height: 200px;
     position: relative;
     top:0;
+    .title{
+        width: 40%;
+        a{
+        h1{
+            font-size: 16px;
+        }}
+    }
    .menu{
     ul{
         li{margin:0;
-        top:0;
+        top:40px;
+       left:0;
         font-size: 12px;
         display: block;
         border:none;
@@ -81,6 +127,13 @@ const SHeader = styled.header`
         }
         }
     }
+    .invisible{
+        display: none;
+    }
+   }
+   .menuhamburguer{
+    display: block;
+    
    }
 }
 

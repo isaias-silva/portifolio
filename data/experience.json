@@ -1,0 +1,22 @@
+[
+    {
+        "title": "99freelas",
+        "periodo":"2020",
+        "cargo": "freelancer",
+        "descricao": " trabalhos freelancer, desenvolvimento frontend, backend, automações, edição de imagens, criação de logo. "
+    },
+    {
+        "title": "Essia",
+        "cargo": "estágio",
+        "periodo":"2021 ~ 2022",
+        "descricao": "    estágio na área de informática, atividades como: criação páginas xml, estilização com css e edição de imagens."
+    },
+
+
+    {
+        "title": "Erwin Systems",
+        "cargo": "freelancer",
+        "periodo":"2022",
+        "descricao": "atividades como fullstack Typescript, desenvolvendo aplicações para servidores, interfaces gráficas e automações."
+    }
+]

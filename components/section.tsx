@@ -56,7 +56,16 @@ export default function Section(post: Ipost) {
                                         communicativo
                                 </li>
                         </ul>
-                        <h2>contato:</h2>
+                        <h2>languages:</h2>
+                        <ul>
+                                <li>
+                                        espanhol
+                                </li>
+                                <li>
+                                        inglês
+                                </li>
+                        </ul>
+                        <h2>contact:</h2>
                         <div className="contacts">
 
 
