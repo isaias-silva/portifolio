@@ -33,7 +33,7 @@ export default function Header() {
             
               <ul className={ visibleMenu?'normal':'invisible' }>
                     <li>
-                        <Link href={"/projetos/"}>projetos frontend</Link>
+                        <Link href={"/projetos/front"}>projetos frontend</Link>
                     </li>
                     <li>
                         <Link href={"/projetos/back"}>projetos backend</Link>

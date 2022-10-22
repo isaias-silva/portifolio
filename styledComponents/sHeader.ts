@@ -15,23 +15,21 @@ const SHeader = styled.header`
     
         ul{ list-style: none;
             li{
-             
-                margin: 15px;
-               padding-bottom:10px ;
-                display: inline-block;
                 position: relative;
-              border-bottom:1px solid black ;
+                display: inline-block;
                 top: 50%;
-                transition: 0.4s ease-in-out;
+                margin: 15px;
+                a{
+                    padding-bottom: 8px;
+                    color: aquamarine;
+                    text-decoration: none;
+                    border-bottom:1px solid #00000000 ;
+                    transition: 0.4s ease-in-out;
                 :hover{
                         color:white;
                         text-shadow: 0 0 10px aqua;
                         border-bottom: 1px solid aqua;
                     }
-                a{
-                    color: aquamarine;
-                    text-decoration: none;
-                    
                 }
             }
         }
@@ -70,6 +68,12 @@ const SHeader = styled.header`
     position: absolute;
     right: 0;
     top:20px;
+    label{
+
+       
+    
+    
+    
     span{
         position: relative;
         display: block;
@@ -102,6 +106,8 @@ const SHeader = styled.header`
             
         }
     }
+    }
+   
 }
 @media screen and (max-width: 745px){
    height: 200px;
@@ -116,15 +122,21 @@ const SHeader = styled.header`
     }
    .menu{
     ul{
-        li{margin:0;
+        li{ margin:0;
         top:40px;
-       left:0;
+        left:0;
         font-size: 12px;
         display: block;
-        border:none;
+ 
+        a{
+            border:none;
         :hover{
             border: none;
         }
+            }
+           
+       
+ 
         }
     }
     .invisible{

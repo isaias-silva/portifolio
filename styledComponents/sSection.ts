@@ -5,11 +5,22 @@ width: 90%;
 min-height: 500px;
 margin: auto;
 margin-top: 100px;
+margin-bottom: 0;
 color:#fff;
 border-radius: 40px;
 padding: 10px;
 box-shadow: 10px 10px 20px #000;
 position: relative;
+a{
+    text-decoration: none;
+    color:pink;
+    font-weight: bold;
+    transition: 0.2s linear;
+    
+    :hover{
+        text-shadow: 1px 1px 10px #fff;
+    }
+}
 div.legend{
     position: relative;
     width: 50%;
@@ -29,11 +40,12 @@ div.legend{
     }
 }
 
-img.wall{
+ img.wall{
     width: 40%;
     border-radius: 10px;
     position: absolute ;
     right:0;
+    max-height: 400px;
 }
 
     .perfil{
@@ -74,9 +86,7 @@ img.wall{
     h2{
         text-shadow: 2px 2px 0 purple;
     }
-    p{
-        text-shadow: 1px 1px 0 aqua;
-    }
+   
     @media screen and (max-width: 745px){
         h2{
             border-bottom: 1px inset aqua;

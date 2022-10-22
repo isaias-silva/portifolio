@@ -1,0 +1,34 @@
+[
+    {   "type":"front",
+    "title":"JoJo List",
+    "link":"https://jojolist.netlify.app/",
+    "linkRepo":"https://github.com/isaias-silva/jojolist-version-basic-",
+    "img":"https://i.ibb.co/FxSc7fM/Whats-App-Image-2022-10-22-at-14-56-14.jpg",
+    "resume":"aplicação web que consome a JoJoApi e exibe todos os 'stands' do mangá JoJo's bizarre Adventure, feito com html, css e Js."
+    },
+    {   "type":"front",
+    "title":"JoJo List React version",
+    "link":"https://jojo-list.netlify.app/",
+    "linkRepo":"https://github.com/isaias-silva/jojolist-version-basic-",
+    "img":"https://i.ibb.co/y6h136R/Captura-de-tela-de-2022-10-22-15-26-38.png",
+    "resume":"aplicação web feita com ReactJs que consome a JoJoApi e exibe todos os 'stands' do mangá JoJo's bizarre Adventure, o projeto é um 're-code' adatado para React do projeto anterior."
+    }
+    ,
+    {   "type":"front",
+        "title":"relógio analógico",
+        "link":"https://black-clock.netlify.app/",
+        "linkRepo":"https://github.com/isaias-silva/relogio-analogico-js",
+        "img":"https://raw.githubusercontent.com/isaias-silva/relogio-analogico-js/main/images_example/example.png",
+        "resume":"relógio analógico com ponteiros que marcam horas minutos e segundos, usando as tecnologias HTML, CSS e JS e com o paradigma de Programação Orientada a Objetos."
+    },
+
+    {   "type":"front",
+        "title":"calculadora Js",
+        "link":"https://green-calculator.netlify.app/",
+        "linkRepo":"https://github.com/isaias-silva/calculator-web-version",
+        "img":"https://i.ibb.co/3YHzWbb/calculator.jpg",
+        "resume":"aplicação web de calculadora ultilizando HTML, CSS, JS e obfuscação de código, uso da lógica matemática para cálculos como:soma, subtração, dividir, multiplicar, potenciação, raiz quadrada e aproximação de pi"
+    }
+
+
+]
