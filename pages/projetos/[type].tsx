@@ -2,10 +2,14 @@ import Project from "../../components/project";
 import Section from "../../components/section";
 import { Iproject } from "../../interfaces/Iproject";
 import projectsData from '../../data/projects.json'
-export default function Frontend() {
+import { Router, useRouter } from "next/router";
+import Head from "next/head";
+import Erro from "../../components/erro";
+export default function Proj() {
+    const route = useRouter()
 
-    const projectFront: Iproject[] | any[] = projectsData
-        .filter((data) => data.type == 'front')
+    const projects: Iproject[] | any[] = projectsData
+        .filter((data) => data.type == route.query.type)
         .map((value) => {
             return {
                 title: value.title,
@@ -16,10 +20,18 @@ export default function Frontend() {
                 linkRepo: value.linkRepo
             }
         })
-
-    return <>
+if(projects.length<1){
+    return <Erro status={404} message={'acho que não fiz projetos sobre...'}></Erro>
+}
+   return <>
+        <Head>
+            <title>
+                projetos {route.query.type}
+            </title>
+        </Head>
         {
-            projectFront.map((x, i) => {
+
+            projects.map((x, i) => {
                 return <Project
                     linkRepo={x.linkRepo}
                     type={x.type}

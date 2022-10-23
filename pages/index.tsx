@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Head from 'next/head'
 import Section from '../components/section'
 import experience from '../data/experience.json'
 const Home: NextPage = () => {
@@ -16,6 +17,11 @@ return <div className='exp' key={i}>
  
 
   return (<>
+  <Head>
+    <title>
+      bem vindo!
+    </title>
+  </Head>
     <Section img='a' title='a' type='about'></Section>
     <Section element={experiencia} img='https://i.pinimg.com/originals/c0/e1/5f/c0e15fc5b0a8751878fb7ccf17c4fa89.jpg' title='Experience:' type='normal'></Section>
   </>)

@@ -1,34 +1,50 @@
 [
-    {   "type":"front",
-    "title":"JoJo List",
-    "link":"https://jojolist.netlify.app/",
-    "linkRepo":"https://github.com/isaias-silva/jojolist-version-basic-",
-    "img":"https://i.ibb.co/FxSc7fM/Whats-App-Image-2022-10-22-at-14-56-14.jpg",
-    "resume":"aplicação web que consome a JoJoApi e exibe todos os 'stands' do mangá JoJo's bizarre Adventure, feito com html, css e Js."
+    {
+        "type": "front",
+        "title": "JoJo List",
+        "link": "https://jojolist.netlify.app/",
+        "linkRepo": "https://github.com/isaias-silva/jojolist-version-basic-",
+        "img": "https://i.ibb.co/FxSc7fM/Whats-App-Image-2022-10-22-at-14-56-14.jpg",
+        "resume": "aplicação web que consome a JoJoApi e exibe todos os 'stands' do mangá JoJo's bizarre Adventure, feito com html, css e Js."
     },
-    {   "type":"front",
-    "title":"JoJo List React version",
-    "link":"https://jojo-list.netlify.app/",
-    "linkRepo":"https://github.com/isaias-silva/jojolist-version-basic-",
-    "img":"https://i.ibb.co/y6h136R/Captura-de-tela-de-2022-10-22-15-26-38.png",
-    "resume":"aplicação web feita com ReactJs que consome a JoJoApi e exibe todos os 'stands' do mangá JoJo's bizarre Adventure, o projeto é um 're-code' adatado para React do projeto anterior."
-    }
-    ,
-    {   "type":"front",
-        "title":"relógio analógico",
-        "link":"https://black-clock.netlify.app/",
-        "linkRepo":"https://github.com/isaias-silva/relogio-analogico-js",
-        "img":"https://raw.githubusercontent.com/isaias-silva/relogio-analogico-js/main/images_example/example.png",
-        "resume":"relógio analógico com ponteiros que marcam horas minutos e segundos, usando as tecnologias HTML, CSS e JS e com o paradigma de Programação Orientada a Objetos."
+    {
+        "type": "front",
+        "title": "JoJo List React version",
+        "link": "https://jojo-list.netlify.app/",
+        "linkRepo": "https://github.com/isaias-silva/jojolist-version-basic-",
+        "img": "https://i.ibb.co/y6h136R/Captura-de-tela-de-2022-10-22-15-26-38.png",
+        "resume": "aplicação web feita com ReactJs que consome a JoJoApi e exibe todos os 'stands' do mangá JoJo's bizarre Adventure, o projeto é um 're-code' adatado para React do projeto anterior."
     },
-
-    {   "type":"front",
-        "title":"calculadora Js",
-        "link":"https://green-calculator.netlify.app/",
-        "linkRepo":"https://github.com/isaias-silva/calculator-web-version",
-        "img":"https://i.ibb.co/3YHzWbb/calculator.jpg",
-        "resume":"aplicação web de calculadora ultilizando HTML, CSS, JS e obfuscação de código, uso da lógica matemática para cálculos como:soma, subtração, dividir, multiplicar, potenciação, raiz quadrada e aproximação de pi"
+    {
+        "type": "front",
+        "title": "relógio analógico",
+        "link": "https://black-clock.netlify.app/",
+        "linkRepo": "https://github.com/isaias-silva/relogio-analogico-js",
+        "img": "https://raw.githubusercontent.com/isaias-silva/relogio-analogico-js/main/images_example/example.png",
+        "resume": "relógio analógico com ponteiros que marcam horas minutos e segundos, usando as tecnologias HTML, CSS e JS e com o paradigma de Programação Orientada a Objetos."
+    },
+    {
+        "type": "front",
+        "title": "calculadora Js",
+        "link": "https://green-calculator.netlify.app/",
+        "linkRepo": "https://github.com/isaias-silva/calculator-web-version",
+        "img": "https://i.ibb.co/3YHzWbb/calculator.jpg",
+        "resume": "aplicação web de calculadora ultilizando HTML, CSS, JS e obfuscação de código, uso da lógica matemática para cálculos como:soma, subtração, dividir, multiplicar, potenciação, raiz quadrada e aproximação de pi"
+    },
+    {
+        "type": "back",
+        "title": "jojoapi",
+        "link":"https://jojo-api.herokuapp.com/",
+        "linkRepo": "https://github.com/isaias-silva/jojoapi",
+        "img":"https://camo.githubusercontent.com/ad552f7c020176e7670efa9f90470be3556d4b71fb13eb241c8c4a75ddca7002/68747470733a2f2f766f636573616269616e696d652e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032302f30332f4a6f4a6f732d42697a617272652d416476656e747572652d4a6f6a6f2d4a6f65737461722d4a6f686e6e792d4a6f65737461722d4a6f6e617468616e2d4a6f65737461722d313133393434392d77616c6c686572652e636f6d5f2e6a7067",
+        "resume":"api que retorna personagens 'stands' do mangá JoJo`s Bizarre adventures, desenvolvido com Javascript(nodejs) ultilizando express, conexão a banco de dados mongo e conhecimento em requisições http."
     }
-
-
+,
+    {
+        "type": "back",
+        "title": "cybersec backend",
+        "linkRepo": "https://github.com/CyberSecurityti/cybersecblog-backend",
+        "img":"https://camo.githubusercontent.com/d196693cf5e07f54bea3696b7446f9505b8530ba9d8f6dd374772eadc68e1fbf/68747470733a2f2f692e696d6775722e636f6d2f42304c515a77362e6a7067",
+        "resume":"Backend do blog da comunidade Cybersec sobre web segurança e programação, projeto feito em conjunto com os membros da comunidade Cybersec, com uso das tecnologias Typescript, mongoDB e JWT."
+    }
 ]

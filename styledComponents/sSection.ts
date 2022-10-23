@@ -16,7 +16,7 @@ a{
     color:pink;
     font-weight: bold;
     transition: 0.2s linear;
-    
+    text-overflow: clip ellipsis;
     :hover{
         text-shadow: 1px 1px 10px #fff;
     }
@@ -30,6 +30,7 @@ div.legend{
         margin-left: 5px;
         padding: 5px;
         border-radius: 10px;
+     
         background-color: #01010199;
         h3{
             text-shadow: 1px 1px 1px aqua;
@@ -41,7 +42,7 @@ div.legend{
 }
 
  img.wall{
-    width: 40%;
+    width: 45%;
     border-radius: 10px;
     position: absolute ;
     right:0;
@@ -109,7 +110,7 @@ ul{
 }
 
    img.wall{
-    width: 40%;
+    width: 70%;
     position: relative;
  margin: auto;
 }

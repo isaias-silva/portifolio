@@ -28,6 +28,19 @@ background-size: cover;
     top:0;
     bottom: 0;
   }
+  ::-webkit-scrollbar{
+  width: 8px;}
+
+::-webkit-scrollbar-track {
+  background: #202020;       
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: purple;
+  background-image:linear-gradient(purple, aqua);   
+  border-radius: 20px;       
+
+}
   .txt{
     display: inline;
   }
@@ -41,7 +54,19 @@ background-size: cover;
   .white{
     color:#fff;
   }
+  .center{text-align:center;
+  margin:auto;
+  }
+  h2.center{
+  font-size: 32px;
   }
   
+  }
+  @media screen and (max-width: 745px){
+  body{
+    background-image:url('https://i.pinimg.com/originals/9f/2e/e6/9f2ee60cc592305f22bf2346848e06f6.jpg');
+
+  }
+}
 `
 export default GlobalStyle

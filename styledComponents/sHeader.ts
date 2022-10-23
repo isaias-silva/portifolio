@@ -110,8 +110,9 @@ const SHeader = styled.header`
    
 }
 @media screen and (max-width: 745px){
-   height: 200px;
-    position: relative;
+   height: auto;
+   min-height:100px ;
+   position: relative;
     top:0;
     .title{
         width: 40%;
@@ -122,11 +123,13 @@ const SHeader = styled.header`
     }
    .menu{
     ul{
+       
         li{ margin:0;
-        top:40px;
+        top:0;
         left:0;
         font-size: 12px;
-        display: block;
+     margin: 3px;
+     display: block;
  
         a{
             border:none;
@@ -145,7 +148,7 @@ const SHeader = styled.header`
    }
    .menuhamburguer{
     display: block;
-    
+    z-index: 10000000000000;
    }
 }
 

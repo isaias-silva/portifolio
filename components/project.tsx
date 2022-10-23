@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+
 import Link from "next/link";
 import { Iproject } from "../interfaces/Iproject";
 import Ssection from "../styledComponents/sSection";
@@ -7,6 +8,7 @@ export default function Project(project: Iproject) {
 
         return <Ssection>
                 <>
+                        
                         <h2>{project.title}</h2>
                         <br />
 
