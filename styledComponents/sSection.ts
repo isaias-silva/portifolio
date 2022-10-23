@@ -25,12 +25,13 @@ div.legend{
     position: relative;
     width: 50%;
     .exp{
+        width: 70%;
         box-shadow: 2px 2px 10px aqua,-2px -2px 10px purple;
         margin-top: 5px;
         margin-left: 5px;
         padding: 5px;
         border-radius: 10px;
-     
+     word-wrap: break-word;
         background-color: #01010199;
         h3{
             text-shadow: 1px 1px 1px aqua;
@@ -38,6 +39,7 @@ div.legend{
         p{
             text-shadow: 1px 1px 1px purple;
         }
+       
     }
 }
 
@@ -122,7 +124,7 @@ div.legend{
  
     justify-content: space-between;
     .exp{
-        width: 800px;
+       margin: auto;
     }
 }
 

@@ -8,7 +8,7 @@ export default function Project(project: Iproject) {
 
         return <Ssection>
                 <>
-                        
+
                         <h2>{project.title}</h2>
                         <br />
 
@@ -20,12 +20,21 @@ export default function Project(project: Iproject) {
                                 {
                                         project.link ? <div className="exp" >
                                                 <h3>link:</h3>
-                                                <a href={project.link} target={'_blank'} rel="noreferrer">{project.link}</a>
+                                                <p>
+
+                                                        <a href={project.link}
+                                                                target={'_blank'}
+                                                                rel="noreferrer">{project.link}</a>
+                                                </p>
                                         </div> : null
                                 }
                                 <div className="exp" >
                                         <h3>repositório:</h3>
-                                        <a href={project.linkRepo} target={'_blank'} rel="noreferrer">{project.linkRepo}</a>
+                                        <p>
+                                                <a href={project.linkRepo}
+                                                        target={'_blank'}
+                                                        rel="noreferrer">{project.linkRepo}</a>
+                                        </p>
                                 </div>
                         </div>
                 </>

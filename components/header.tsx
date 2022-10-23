@@ -14,7 +14,7 @@ export default function Header() {
         <div className="title">
             <Link href={'/'}>
                 <a>           <img src={logo.src} alt="logo" />
-                    <h1><span className="txt white">Z</span>ack santos</h1>
+                    <h1><span className="txt white">Z</span>ack <span className="txt white">s</span>antos</h1>
 
                 </a>
 

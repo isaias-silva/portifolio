@@ -44,10 +44,10 @@ const SHeader = styled.header`
     img{width:80px;
         height:80px;
         border-radius: 100%;
-        box-shadow: 14px 1px 1px blue;
+        box-shadow: 14px 1px 1px aquamarine;
         transition: 0.2s linear;
     }
-    h1{text-shadow:3px 1px 1px blue;
+    h1{text-shadow:-1px -1px 1px #000,1px 1px 1px #000;
         transition: 0.2s linear;
         font-size: 24px;
         margin-top: 30px;

@@ -43,6 +43,7 @@ background-size: cover;
 }
   .txt{
     display: inline;
+  
   }
   .red{
     color:red;
