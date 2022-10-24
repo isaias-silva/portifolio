@@ -6,7 +6,8 @@ const SHeader = styled.header`
     position: fixed;
     top:0;
     justify-content: space-between;
-    background-color: black;
+    background-color: #02020299;
+  
     border-bottom: 1px solid #2F2F2F;
     z-index: 100000000000;
     color:aqua;
@@ -126,8 +127,8 @@ const SHeader = styled.header`
        
         li{ margin:0;
         top:0;
-        left:0;
-        font-size: 12px;
+        left:-15px;
+        font-size: 14px;
      margin: 3px;
      display: block;
  
