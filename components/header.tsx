@@ -6,9 +6,9 @@ import logo from "../public/logo.png"
 import { useState } from "react";
 export default function Header() {
     const [visibleMenu, setVisible] = useState<boolean>(false)
+ 
     const toogle=()=>{
         setVisible(!visibleMenu)
-        console.log(visibleMenu)
     }
     return <SHeader>
         <div className="title">
