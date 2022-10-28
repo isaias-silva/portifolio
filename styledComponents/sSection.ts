@@ -44,7 +44,7 @@ div.legend{
 }
 
  img.wall{
-    width: 45%;
+   width: 400px;
     border-radius: 10px;
     position: absolute ;
     right:0;
