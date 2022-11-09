@@ -80,7 +80,7 @@
     {
         "type":"auto",
         "title":"smaug Bot",
-        "linkRepo":"https://github.com/isaias-silva/smaug-bot",
+        "linkRepo":"https://github.com/isaias-silva/smaugbot",
         "img":"https://raw.githubusercontent.com/isaias-silva/smaugbot/main/image.png",
         "resume":"aplicação desktop que conecta ao whatsapp e exibe todas as mensagens recebidas em tempo real, onde se pode responder as mensagens direto da aplicação, feito com Typescript usando comunicação via websocket e renderização por meio da view engine EJS."
     }
