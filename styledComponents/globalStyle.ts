@@ -10,7 +10,7 @@ position: relative;
  }
   body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom, #202020,#05adfd);
+    background: linear-gradient(to bottom, #202020,#fff);
 background-attachment: fixed;
 
 background-size: cover;

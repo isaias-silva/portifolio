@@ -8,7 +8,7 @@ margin-top: 100px;
 margin-bottom: 0;
 color:#fff;
 border-radius: 40px;
-padding: 10px;
+padding: 20px;
 box-shadow: 10px 10px 20px #000;
 position: relative;
 a{
@@ -33,12 +33,7 @@ div.legend{
         border-radius: 10px;
      word-wrap: break-word;
         background-color: #01010199;
-        h3{
-            text-shadow: 1px 1px 1px aqua;
-        }
-        p{
-            text-shadow: 1px 1px 1px purple;
-        }
+     
        
     }
 }
@@ -56,10 +51,11 @@ div.legend{
    
    
   
-    width: 400px;
-    border-radius: 100px;
+    width: 300px;
+    border-radius: 10px;
     float: right;
     position: relative;
+
 
     }
     .stack{
@@ -86,9 +82,7 @@ div.legend{
         margin:1px;
        }
     }
-    h2{
-        text-shadow: 2px 2px 0 purple;
-    }
+ 
    
     @media screen and (max-width: 745px){
         h2{
