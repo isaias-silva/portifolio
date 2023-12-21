@@ -28,7 +28,7 @@ export default function Section(post: Ipost) {
 
                         <h2>who i am:</h2>
                         <div className="perfil" >
-                                <Image src={perfil} width={250} height={250} alt='perfil' />
+                                <Image src={perfil} width={400} height={400} alt='perfil' />
 
                         </div>
                         <p>meu nome é Isaías, tenho 20 anos, sou estudante de ciência da computação e desenvolvedor fullstack!</p>

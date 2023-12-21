@@ -9,7 +9,8 @@ position: relative;
   scroll-behavior: smooth;
  }
   body{
-    background-image:url('https://i.imgur.com/O3Bxs16.gif');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #202020,#05adfd);
 background-attachment: fixed;
 
 background-size: cover;

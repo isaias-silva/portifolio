@@ -23,7 +23,7 @@ a{
 }
 div.legend{
     position: relative;
-    width: 50%;
+    width: 70%;
     .exp{
         width: 70%;
         box-shadow: 2px 2px 10px aqua,-2px -2px 10px purple;
@@ -53,10 +53,10 @@ div.legend{
 
     .perfil{
     overflow: hidden;
-    border:1px solid aqua;
-    box-shadow: -8px -8px 20px aqua, 12px 12px 20px #6E00FF;
+   
+   
   
-    width: 200px;
+    width: 400px;
     border-radius: 100px;
     float: right;
     position: relative;

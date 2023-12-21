@@ -9,6 +9,7 @@ const SHeader = styled.header`
     background-color: #02020299;
   
     border-bottom: 1px solid #2F2F2F;
+
     z-index: 100000000000;
     color:aqua;
     .title, .menu{
@@ -45,22 +46,13 @@ const SHeader = styled.header`
     img{width:80px;
         height:80px;
         border-radius: 100%;
-        box-shadow: 14px 1px 1px aquamarine;
+
         transition: 0.2s linear;
     }
     h1{text-shadow:-1px -1px 1px #000,1px 1px 1px #000;
         transition: 0.2s linear;
         font-size: 24px;
         margin-top: 30px;
-    }
-    :hover{
-        img{
-            box-shadow: 16px 1px 1px purple;
-            
-        }
-        h1{
-            text-shadow:3px 1px 1px purple;
-        }
     }
     }
 }
