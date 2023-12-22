@@ -73,6 +73,11 @@
         "name": "mySql",
         "desc": "O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.",
         "img":"https://pngimg.com/uploads/mysql/mysql_PNG11.png"
+    },
+    {
+        "name":"VueJs",
+      "desc":"Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.",
+        "img":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
     }
     
 ]

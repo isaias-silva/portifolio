@@ -11,9 +11,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 z-index: 100000000000000;
+backdrop-filter: blur(4px);
 .box{
     background-color:#222;
-    padding: 5px;
+    padding: 25px;
     border-radius: 10px;
     color:#fff;
     width: 50%;
@@ -30,14 +31,17 @@ z-index: 100000000000000;
         position: absolute;
         background: none;
         border:none;
-        font-size: 32px;
+        font-size: 18px;
         right: 0;
+        top:0;
         transition:0.4s linear;
-       border-radius: 100px;
-       width: 40px;
+        border-radius: 100px;
+        color:#fff;
+        width: 30px;
+        height: 30px;
        :hover{
         cursor: pointer;
-        background-color: red;
+        background-color: #00000090;
         color:#fff
        }
     }

@@ -5,11 +5,11 @@ width: 90%;
 min-height: 500px;
 margin: auto;
 margin-top: 100px;
-margin-bottom: 0;
+margin-bottom: 50px;
 color:#fff;
-border-radius: 40px;
+border-radius: 10px;
 padding: 20px;
-box-shadow: 10px 10px 20px #000;
+box-shadow: 2px 2px 5px #000;
 position: relative;
 a{
     text-decoration: none;
@@ -23,11 +23,11 @@ a{
 }
 div.legend{
     position: relative;
-    width: 70%;
+    width: 60%;
     .exp{
         width: 70%;
         box-shadow: 2px 2px 10px aqua,-2px -2px 10px purple;
-        margin-top: 5px;
+        margin-top: 20px;
         margin-left: 5px;
         padding: 5px;
         border-radius: 10px;
@@ -39,22 +39,22 @@ div.legend{
 }
 
  img.wall{
-   width: 400px;
+   width: 450px;
     border-radius: 10px;
     position: absolute ;
-    right:0;
+    right:50px;
     max-height: 400px;
 }
 
     .perfil{
     overflow: hidden;
-   
-   
-  
-    width: 300px;
-    border-radius: 10px;
+    width: 340px;
+    height: 340px;
+    border-radius: 100%;
     float: right;
     position: relative;
+    border: 6px solid #00000099;
+    box-sizing: border-box;
 
 
     }
@@ -68,7 +68,7 @@ div.legend{
             transition: 0.2s ease-in;
             
             :hover{
-                transform: scale(1.5);
+                transform: scale(1.6);
                 cursor: pointer;
             }
         }
@@ -77,7 +77,7 @@ div.legend{
         display: flex;
         width: 50%;
         flex-wrap: wrap;
-       justify-content: space-around;
+       justify-content: space-between;
        a{
         margin:1px;
        }

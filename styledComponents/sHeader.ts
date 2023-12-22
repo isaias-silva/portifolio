@@ -7,7 +7,7 @@ const SHeader = styled.header`
     top:0;
     justify-content: space-between;
     background-color: #02020299;
-  
+  backdrop-filter: blur(10px);
     border-bottom: 1px solid #2F2F2F;
 
     z-index: 100000000000;
