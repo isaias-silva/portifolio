@@ -1,87 +1,93 @@
 [
-    {
-        "type": "front",
-        "title": "JoJo List",
-        "link": "https://jojolist.netlify.app/",
-        "linkRepo": "https://github.com/isaias-silva/jojolist-version-basic-",
-        "img": "https://i.ibb.co/FxSc7fM/Whats-App-Image-2022-10-22-at-14-56-14.jpg",
-        "resume": "aplicação web que consome a JoJoApi e exibe todos os 'stands' do mangá JoJo's bizarre Adventure, feito com html, css e Js."
-    },
-    {
-        "type": "front",
-        "title": "JoJo List React version",
-        "link": "https://jojo-list.netlify.app/",
-        "linkRepo": "https://github.com/isaias-silva/jojolist-version-basic-",
-        "img": "https://i.ibb.co/y6h136R/Captura-de-tela-de-2022-10-22-15-26-38.png",
-        "resume": "aplicação web feita com ReactJs que consome a JoJoApi e exibe todos os 'stands' do mangá JoJo's bizarre Adventure, o projeto é um 're-code' adatado para React do projeto anterior."
-    },
-    {
-        "type":"front",
-        "title":"floatbook",
-        "linkRepo":"https://github.com/isaias-silva/floatbook",
-        "img":"https://i.ibb.co/VQvQV22/Captura-de-tela-de-2022-10-23-14-01-42.png"
-        ,"resume":"interface inspirada no facebook feita com React."
-    },
-    {
-        "type": "front",
-        "title": "relógio analógico",
-        "link": "https://black-clock.netlify.app/",
-        "linkRepo": "https://github.com/isaias-silva/relogio-analogico-js",
-        "img": "https://raw.githubusercontent.com/isaias-silva/relogio-analogico-js/main/images_example/example.png",
-        "resume": "relógio analógico com ponteiros que marcam horas minutos e segundos, uso de geometria de circunferências e ângulos, criado por meio das tecnologias HTML, CSS e JS e com o paradigma de Programação Orientada a Objetos."
-    },
-    {
-        "type": "front",
-        "title": "calculadora Js",
-        "link": "https://green-calculator.netlify.app/",
-        "linkRepo": "https://github.com/isaias-silva/calculator-web-version",
-        "img": "https://i.ibb.co/3YHzWbb/calculator.jpg",
-        "resume": "aplicação web de calculadora ultilizando HTML, CSS, JS e obfuscação de código, uso da lógica matemática para cálculos como:soma, subtração, dividir, multiplicar, potenciação, raiz quadrada e aproximação de pi"
-    },
-    {
-        "type": "back",
-        "title": "jojoapi",
-        "link":"https://jojo-api.herokuapp.com/",
-        "linkRepo": "https://github.com/isaias-silva/jojoapi",
-        "img":"https://camo.githubusercontent.com/ad552f7c020176e7670efa9f90470be3556d4b71fb13eb241c8c4a75ddca7002/68747470733a2f2f766f636573616269616e696d652e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032302f30332f4a6f4a6f732d42697a617272652d416476656e747572652d4a6f6a6f2d4a6f65737461722d4a6f686e6e792d4a6f65737461722d4a6f6e617468616e2d4a6f65737461722d313133393434392d77616c6c686572652e636f6d5f2e6a7067",
-        "resume":"api que retorna personagens 'stands' do mangá JoJo`s Bizarre adventures, desenvolvido com Javascript(nodejs) ultilizando express, conexão a banco de dados mongo e conhecimento em requisições http."
-    }
-,
-    {
-        "type": "back",
-        "title": "cybersec backend",
-        "linkRepo": "https://github.com/CyberSecurityti/cybersecblog-backend",
-        "img":"https://camo.githubusercontent.com/d196693cf5e07f54bea3696b7446f9505b8530ba9d8f6dd374772eadc68e1fbf/68747470733a2f2f692e696d6775722e636f6d2f42304c515a77362e6a7067",
-        "resume":"Backend do blog da comunidade Cybersec sobre web segurança e programação, projeto feito em conjunto com os membros da comunidade Cybersec, com uso das tecnologias Typescript, mongoDB e JWT."
-    }
-    ,
-    {
-        "type":"back",
-        "title":"scrapApi",
-        "linkRepo":"https://github.com/isaias-silva/scrapy-api",
-        "img":"https://miro.medium.com/max/641/1*4GVSbbdBhWr73IgBykO5hA.png"
-        ,"resume":"Api que faz raspagem de dados (webScraping), do site de frases 'pensador' de determinado tema(escolhido na própria requisição) e retorna um Json com todas as frases do tema escolhido feito com Typescript e Puppeteer."
-    },
-    {
-        "type":"auto",
-        "title":"sophy-bot"
-        ,"linkRepo":"https://github.com/isaias-silva/sophy-bot"
-        ,"img":"https://raw.githubusercontent.com/isaias-silva/sophy-bot/main/image.png"
-        ,"resume":"chatbot de whatsapp, que administra grupos, baixa e envia músicas e vídeos do youtube, cria figurinhas, remove e adiciona membros e remove propagandas. feito em Typescript."
-    },
-    {
-        "type":"auto",
-        "title":"instabot"
-        ,"linkRepo":"https://github.com/isaias-silva/instabot"
-        ,"img":"https://camo.githubusercontent.com/48b5c67f0baa5b41fc98c96dad8de4771b0fc583d6b3dda417c7f8e01e801028/68747470733a2f2f692e696d6775722e636f6d2f734a7a665a734c2e6a7067"
-        
-        ,"resume":"bot que busca engajar perfil do instagram de forma orgânica, seguindo pessoas, feito com Javascript e Puppeteer."
-    },
-    {
-        "type":"auto",
-        "title":"smaug Bot",
-        "linkRepo":"https://github.com/isaias-silva/smaugbot",
-        "img":"https://raw.githubusercontent.com/isaias-silva/smaugbot/main/image.png",
-        "resume":"aplicação desktop que conecta ao whatsapp e exibe todas as mensagens recebidas em tempo real, onde se pode responder as mensagens direto da aplicação, feito com Typescript usando comunicação via websocket e renderização por meio da view engine EJS."
-    }
+  {
+    "type": "front",
+    "img": "https://i.ibb.co/gwDKnt9/image.png",
+    "resume": "Landing page feita em NextJs para o sistema de gestão SuperSoft, versão em português e inglês.",
+    "title": "SuperSoft - Landing Page",
+    "link": "https://erwinsystems-supersoft.netlify.app/",
+    "linkRepo":"https://github.com/AricodeLab/supersoft.com"
+  },
+  {
+    "type": "front",
+    "title": "JoJo List",
+    "link": "https://jojolist.netlify.app/",
+    "linkRepo": "https://github.com/isaias-silva/jojolist-version-basic-",
+    "img": "https://i.ibb.co/FxSc7fM/Whats-App-Image-2022-10-22-at-14-56-14.jpg",
+    "resume": "aplicação web que consome a JoJoApi e exibe todos os 'stands' do mangá JoJo's bizarre Adventure, feito com html, css e Js."
+  },
+  {
+    "type": "front",
+    "title": "JoJo List React version",
+    "link": "https://jojo-list.netlify.app/",
+    "linkRepo": "https://github.com/isaias-silva/jojolist-version-basic-",
+    "img": "https://i.ibb.co/y6h136R/Captura-de-tela-de-2022-10-22-15-26-38.png",
+    "resume": "aplicação web feita com ReactJs que consome a JoJoApi e exibe todos os 'stands' do mangá JoJo's bizarre Adventure, o projeto é um 're-code' adaptado para React do projeto anterior."
+  },
+  {
+    "type": "front",
+    "title": "floatbook",
+    "linkRepo": "https://github.com/isaias-silva/floatbook",
+    "img": "https://i.ibb.co/VQvQV22/Captura-de-tela-de-2022-10-23-14-01-42.png",
+    "resume": "interface inspirada no facebook feita com React."
+  },
+  {
+    "type": "front",
+    "title": "relógio analógico",
+    "link": "https://black-clock.netlify.app/",
+    "linkRepo": "https://github.com/isaias-silva/relogio-analogico-js",
+    "img": "https://raw.githubusercontent.com/isaias-silva/relogio-analogico-js/main/images_example/example.png",
+    "resume": "relógio analógico com ponteiros que marcam horas minutos e segundos, uso de geometria de circunferências e ângulos, criado por meio das tecnologias HTML, CSS e JS e com o paradigma de Programação Orientada a Objetos."
+  },
+  {
+    "type": "front",
+    "title": "calculadora Js",
+    "link": "https://green-calculator.netlify.app/",
+    "linkRepo": "https://github.com/isaias-silva/calculator-web-version",
+    "img": "https://i.ibb.co/3YHzWbb/calculator.jpg",
+    "resume": "aplicação web de calculadora ultilizando HTML, CSS, JS e obfuscação de código, uso da lógica matemática para cálculos como:soma, subtração, dividir, multiplicar, potenciação, raiz quadrada e aproximação de pi"
+  },
+  {
+    "type": "back",
+    "title": "jojoapi",
+    "link": "https://jojo-api.herokuapp.com/",
+    "linkRepo": "https://github.com/isaias-silva/jojoapi",
+    "img": "https://camo.githubusercontent.com/ad552f7c020176e7670efa9f90470be3556d4b71fb13eb241c8c4a75ddca7002/68747470733a2f2f766f636573616269616e696d652e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032302f30332f4a6f4a6f732d42697a617272652d416476656e747572652d4a6f6a6f2d4a6f65737461722d4a6f686e6e792d4a6f65737461722d4a6f6e617468616e2d4a6f65737461722d313133393434392d77616c6c686572652e636f6d5f2e6a7067",
+    "resume": "api que retorna personagens 'stands' do mangá JoJo`s Bizarre adventures, desenvolvido com Javascript(nodejs) ultilizando express, conexão a banco de dados mongo e conhecimento em requisições http."
+  },
+  {
+    "type": "back",
+    "title": "cybersec backend",
+    "linkRepo": "https://github.com/CyberSecurityti/cybersecblog-backend",
+    "img": "https://camo.githubusercontent.com/d196693cf5e07f54bea3696b7446f9505b8530ba9d8f6dd374772eadc68e1fbf/68747470733a2f2f692e696d6775722e636f6d2f42304c515a77362e6a7067",
+    "resume": "Backend do blog da comunidade Cybersec sobre web segurança e programação, projeto feito em conjunto com os membros da comunidade Cybersec, com uso das tecnologias Typescript, mongoDB e JWT."
+  },
+  {
+    "type": "back",
+    "title": "scrapApi",
+    "linkRepo": "https://github.com/isaias-silva/scrapy-api",
+    "img": "https://miro.medium.com/max/641/1*4GVSbbdBhWr73IgBykO5hA.png",
+    "resume": "Api que faz raspagem de dados (webScraping), do site de frases 'pensador' de determinado tema(escolhido na própria requisição) e retorna um Json com todas as frases do tema escolhido feito com Typescript e Puppeteer."
+  },
+  {
+    "type": "auto",
+    "title": "sophy-bot",
+    "linkRepo": "https://github.com/isaias-silva/sophy-bot",
+    "img": "https://raw.githubusercontent.com/isaias-silva/sophy-bot/main/image.png",
+    "resume": "chatbot de whatsapp, que administra grupos, baixa e envia músicas e vídeos do youtube, cria figurinhas, remove e adiciona membros e remove propagandas. feito em Typescript."
+  },
+  {
+    "type": "auto",
+    "title": "instabot",
+    "linkRepo": "https://github.com/isaias-silva/instabot",
+    "img": "https://camo.githubusercontent.com/48b5c67f0baa5b41fc98c96dad8de4771b0fc583d6b3dda417c7f8e01e801028/68747470733a2f2f692e696d6775722e636f6d2f734a7a665a734c2e6a7067",
+
+    "resume": "bot que busca engajar perfil do instagram de forma orgânica, seguindo pessoas, feito com Javascript e Puppeteer."
+  },
+  {
+    "type": "auto",
+    "title": "smaug Bot",
+    "linkRepo": "https://github.com/isaias-silva/smaugbot",
+    "img": "https://raw.githubusercontent.com/isaias-silva/smaugbot/main/image.png",
+    "resume": "aplicação desktop que conecta ao whatsapp e exibe todas as mensagens recebidas em tempo real, onde se pode responder as mensagens direto da aplicação, feito com Typescript usando comunicação via websocket e renderização por meio da view engine EJS."
+  }
 ]

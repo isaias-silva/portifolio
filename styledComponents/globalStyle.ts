@@ -64,6 +64,22 @@ background-size: cover;
   }
   
   }
+  @keyframes neonOnOff{
+  from {
+
+    opacity: 0;
+    margin-left: 100px;
+  }
+  to {
+  
+    opacity: 1;
+    margin-left:0;
+  }
+}
+.neon{
+  opacity: 0;
+  animation: neonOnOff 1s forwards;
+}
   @media screen and (max-width: 745px){
   body{
     background-image:url('https://i.pinimg.com/originals/9f/2e/e6/9f2ee60cc592305f22bf2346848e06f6.jpg');

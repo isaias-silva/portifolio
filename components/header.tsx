@@ -36,13 +36,13 @@ export default function Header() {
                     <Link href={"/"}>home</Link>
                 </li>
                 <li>
-                    <Link href={"/projetos/front"}>projetos frontend</Link>
+                    <Link href={"/front"}>projetos frontend</Link>
                 </li>
                 <li>
-                    <Link href={"/projetos/back"}>projetos backend</Link>
+                    <Link href={"/back"}>projetos backend</Link>
                 </li>
                 <li>
-                    <Link href={"/projetos/auto"}> projetos de automação</Link>
+                    <Link href={"/auto"}> projetos de automação</Link>
                 </li>
             </ul>
 

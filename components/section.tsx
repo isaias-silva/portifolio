@@ -74,7 +74,7 @@ export default function Section(post: Ipost) {
                                         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" />
                                 </a>
                                 <a href="https://www.instagram.com/isaias.sanntoss/" target={'_blank'} rel="noreferrer"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram" /></a>
-                                <a href="https://twitter.com/IsaasSa00147683" target={'_blank'} rel="noreferrer"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="twitter" /></a>
+                                <a href="https://twitter.com/IsaasSa00147683" target={'_blank'} rel="noreferrer"><img src="https://img.shields.io/badge/x.com-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="X" /></a>
                                 <a href="https://github.com/isaias-silva" target={'_blank'} rel="noreferrer"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
 
                         </div>

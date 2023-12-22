@@ -8,9 +8,11 @@ margin-top: 100px;
 margin-bottom: 50px;
 color:#fff;
 border-radius: 10px;
-padding: 20px;
 box-shadow: 2px 2px 5px #000;
 position: relative;
+overflow: hidden;
+padding: 10px;
+
 a{
     text-decoration: none;
     color:pink;
@@ -21,32 +23,44 @@ a{
         text-shadow: 1px 1px 10px #fff;
     }
 }
-div.legend{
-    position: relative;
-    width: 60%;
-    .exp{
-        width: 70%;
-        box-shadow: 2px 2px 10px aqua,-2px -2px 10px purple;
-        margin-top: 20px;
-        margin-left: 5px;
-        padding: 5px;
-        border-radius: 10px;
-     word-wrap: break-word;
-        background-color: #01010199;
-     
-       
-    }
-}
 
- img.wall{
-   width: 450px;
+
+img.wall{
+   width: 50%;
+  
     border-radius: 10px;
     position: absolute ;
-    right:50px;
-    max-height: 400px;
+  top:60px;
+    right: 0;
+    opacity:1;
+}
+.blox{
+    padding: 20px;
+width: 40%;
+min-height: 100%;
+
+position: absolute;
+
 }
 
-    .perfil{
+.legend{
+    position: relative;
+    width: 100%;
+
+    .exp{
+        width: 60%;
+        box-shadow: 2px 2px 5px aqua,-2px -2px 5px purple;
+        margin-top: 20px;
+        margin-left: 5px;
+        padding: 10px;
+        border-radius: 10px;
+        word-wrap: break-word;
+        background-color: #01010199;
+        
+     
+    }
+}
+.perfil{
     overflow: hidden;
     width: 340px;
     height: 340px;
@@ -121,6 +135,7 @@ div.legend{
        margin: auto;
     }
 }
+
 
 }
     
