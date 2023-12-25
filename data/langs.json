@@ -1,83 +1,107 @@
 [
-    {
-        "name": "javascript",
-        "desc": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.",
-        "img": "https://camo.githubusercontent.com/442c452cb73752bb1914ce03fce2017056d651a2099696b8594ddf5ccc74825e/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6a6176617363726970742f6a6176617363726970742d6f726967696e616c2e737667"
-    },
-    {
-        "name": "html",
-        "desc": "HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. ",
-        "img": "https://camo.githubusercontent.com/da7acacadecf91d6dc02efcd2be086bb6d78ddff19a1b7a0ab2755a6fda8b1e9/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f68746d6c352f68746d6c352d6f726967696e616c2e737667"
-    },
-    {
-        "name": "css",
-        "desc": "Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. O código CSS pode ser aplicado diretamente nas tags ou ficar contido dentro das tags <style>. Também é possível, em vez de colocar a formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.",
-        "img": "https://camo.githubusercontent.com/2e496d4bfc6f753ddca87b521ce95c88219f77800212ffa6d4401ad368c82170/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f637373332f637373332d6f726967696e616c2e737667"
-    },
-    {
-        "name": "nodejs",
-        "desc": "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.",
-        "img": "https://camo.githubusercontent.com/900baefb89e187c8b32cdbb3b440d1502fe8f30a1a335cc5dc5868af0142f8b1/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6e6f64656a732f6e6f64656a732d6f726967696e616c2e737667"
-    },
-    {
-        "name": "Reactjs",
-        "desc": " React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.",
-        "img": "https://camo.githubusercontent.com/27d0b117da00485c56d69aef0fa310a3f8a07abecc8aa15fa38c8b78526c60ac/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f72656163742f72656163742d6f726967696e616c2e737667"
-    },
-    {
-        "name": "nextjs",
-        "desc": "Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto criada por Vercel que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React.",
-        "img": "https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png"
-    },
-    {
-        "name": "typescript",
-        "desc": "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.",
-        "img": "https://camo.githubusercontent.com/aa8b3e6b6fc55ea158e132e1c33ba6aa7fe49706a4e4bd64701af1cf89f514b5/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f747970657363726970742f747970657363726970742d6f726967696e616c2e737667"
-    },
-    {
-        "name": "express",
-        "desc": "Express.js é um framework para Node.js que fornece recursos mínimos para construção de servidores web. Foi lançado como software livre e de código aberto sob a Licença MIT. É um dos mais populares frameworks para servidores em Node.js.",
-        "img": "https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234.png"
-    },
-    {
-        "name": "Rust",
-        "desc": "Rust é uma linguagem de programação multiparadigma compilada desenvolvida pela Mozilla Research. É projetada para ser 'segura, concorrente e prática', mas diferente de outras linguagens seguras, Rust não usa coletor de lixo. Possui suporte nativo ao WebAssembly.",
-        "img": "https://www.nicepng.com/png/full/308-3084680_rust-programming-language-rust-programming-language-logo.png"
-    },
-    {
-        "name": "python",
-        "desc": "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. ",
-        "img": "https://camo.githubusercontent.com/dd8b0601cdfefe534a6a26f4c29c7f8a5fcfc315002655f519c73121f7bad8bc/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f707974686f6e2f707974686f6e2d6f726967696e616c2e737667"
-    },
-    {
-        "name": "java",
-        "desc": "Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems, que em 2008 foi adquirido pela empresa Oracle Corporation.",
-        "img": "https://camo.githubusercontent.com/65b616ed4448c46e59c11345a1d49a01adc6d51f9bd6e93ee61d29573e04c597/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6a6176612f6a6176612d6f726967696e616c2d776f72646d61726b2e737667"
-    },
-    {
-        "name": "git",
-        "desc": "é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. ",
-        "img": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
-    },
-    {
-        "name": "heroku",
-        "desc": "Heroku é uma plataforma de nuvem como serviço que suporta várias linguagens de programação. Uma das primeiras plataformas em nuvem, ",
-        "img": "https://camo.githubusercontent.com/e28ded186e568aba00abd5c8830f26d821add2d97ddf4a41cf545ec6a1245758/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6865726f6b752f6865726f6b752d706c61696e2e737667"
-    },
-    {
-        "name": "mongoDB",
-        "desc": "MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma. ",
-        "img": "https://img.icons8.com/color/480/mongodb.png"
-    },
-    {
-        "name": "mySql",
-        "desc": "O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.",
-        "img":"https://pngimg.com/uploads/mysql/mysql_PNG11.png"
-    },
-    {
-        "name":"VueJs",
-      "desc":"Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.",
-        "img":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
-    }
-    
+  {
+    "name": "javascript",
+    "desc": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.",
+    "img": "https://camo.githubusercontent.com/442c452cb73752bb1914ce03fce2017056d651a2099696b8594ddf5ccc74825e/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6a6176617363726970742f6a6176617363726970742d6f726967696e616c2e737667"
+  },
+  {
+    "name": "html",
+    "desc": "HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. ",
+    "img": "https://camo.githubusercontent.com/da7acacadecf91d6dc02efcd2be086bb6d78ddff19a1b7a0ab2755a6fda8b1e9/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f68746d6c352f68746d6c352d6f726967696e616c2e737667"
+  },
+  {
+    "name": "css",
+    "desc": "Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. O código CSS pode ser aplicado diretamente nas tags ou ficar contido dentro das tags <style>. Também é possível, em vez de colocar a formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.",
+    "img": "https://camo.githubusercontent.com/2e496d4bfc6f753ddca87b521ce95c88219f77800212ffa6d4401ad368c82170/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f637373332f637373332d6f726967696e616c2e737667"
+  },
+  {
+    "name": "nodejs",
+    "desc": "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.",
+    "img": "https://camo.githubusercontent.com/900baefb89e187c8b32cdbb3b440d1502fe8f30a1a335cc5dc5868af0142f8b1/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6e6f64656a732f6e6f64656a732d6f726967696e616c2e737667"
+  },
+  {
+    "name": "Reactjs",
+    "desc": " React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.",
+    "img": "https://camo.githubusercontent.com/27d0b117da00485c56d69aef0fa310a3f8a07abecc8aa15fa38c8b78526c60ac/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f72656163742f72656163742d6f726967696e616c2e737667"
+  },
+  {
+    "name": "nextjs",
+    "desc": "Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto criada por Vercel que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React.",
+    "img": "https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png"
+  },
+  {
+    "name": "typescript",
+    "desc": "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.",
+    "img": "https://camo.githubusercontent.com/aa8b3e6b6fc55ea158e132e1c33ba6aa7fe49706a4e4bd64701af1cf89f514b5/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f747970657363726970742f747970657363726970742d6f726967696e616c2e737667"
+  },
+  {
+    "name": "express",
+    "desc": "Express.js é um framework para Node.js que fornece recursos mínimos para construção de servidores web. Foi lançado como software livre e de código aberto sob a Licença MIT. É um dos mais populares frameworks para servidores em Node.js.",
+    "img": "https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234.png"
+  },
+  {
+    "name": "Rust",
+    "desc": "Rust é uma linguagem de programação multiparadigma compilada desenvolvida pela Mozilla Research. É projetada para ser 'segura, concorrente e prática', mas diferente de outras linguagens seguras, Rust não usa coletor de lixo. Possui suporte nativo ao WebAssembly.",
+    "img": "https://www.nicepng.com/png/full/308-3084680_rust-programming-language-rust-programming-language-logo.png"
+  },
+  {
+    "name": "python",
+    "desc": "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. ",
+    "img": "https://camo.githubusercontent.com/dd8b0601cdfefe534a6a26f4c29c7f8a5fcfc315002655f519c73121f7bad8bc/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f707974686f6e2f707974686f6e2d6f726967696e616c2e737667"
+  },
+  {
+    "name": "java",
+    "desc": "Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems, que em 2008 foi adquirido pela empresa Oracle Corporation.",
+    "img": "https://camo.githubusercontent.com/65b616ed4448c46e59c11345a1d49a01adc6d51f9bd6e93ee61d29573e04c597/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6a6176612f6a6176612d6f726967696e616c2d776f72646d61726b2e737667"
+  },
+  {
+    "name": "git",
+    "desc": "é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. ",
+    "img": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+  },
+  {
+    "name": "heroku",
+    "desc": "Heroku é uma plataforma de nuvem como serviço que suporta várias linguagens de programação. Uma das primeiras plataformas em nuvem, ",
+    "img": "https://camo.githubusercontent.com/e28ded186e568aba00abd5c8830f26d821add2d97ddf4a41cf545ec6a1245758/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6865726f6b752f6865726f6b752d706c61696e2e737667"
+  },
+  {
+    "name": "mongoDB",
+    "desc": "MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma. ",
+    "img": "https://img.icons8.com/color/480/mongodb.png"
+  },
+  {
+    "name": "mySql",
+    "desc": "O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.",
+    "img": "https://pngimg.com/uploads/mysql/mysql_PNG11.png"
+  },
+  {
+    "name": "VueJs",
+    "desc": "Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+  },
+  {
+    "name": "NestJs",
+    "desc": "NestJS é um framework Node.js de código aberto destinado ao desenvolvimento de aplicativos do lado do servidor. Foi criado por Kamil Mysliwiec e lançado em 2017. Sob o capô, por padrão, o NestJS faz uso do framework Express.js, sendo também compatível com o Fastify. Sua arquitetura é fortemente inspirada no Angular.",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg"
+  },
+  {
+    "name": "Spring",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+    "desc": "O Spring é um framework open source para a plataforma Java criado por Rod Johnson e descrito em seu livro 'Expert One-on-One: JEE Design e Development'. Trata-se de um framework não intrusivo, baseado nos padrões de projeto inversão de controle e injeção de dependência."
+  },
+  {
+    "name": "RabbitMQ",
+    "img": "https://www.ibm.com/content/dam/adobe-cms/instana/media_logo/Rabbit.png/_jcr_content/renditions/cq5dam.web.1280.1280.png",
+    "desc":"O RabbitMQ é um software de mensagens com código aberto, que implementou o protocolo 'Advanced Message Queuing Protocol', que foi estendido com uma arquitetura de plug-in para suportar o protocolo 'Streaming Text Oriented Messaging Protocol', o MQTT entre outros protocolos."
+  },
+  {
+    "name": "Redis",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+    "desc": "Redis é um armazenamento de estrutura de dados em memória, usado como um banco de dados em memória distribuído de chave-valor, cache e agente de mensagens, com durabilidade opcional."
+  },
+  {
+    "name": "Docker",
+    "desc": "Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração.",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+  }
 ]

@@ -11,7 +11,7 @@ border-radius: 10px;
 box-shadow: 2px 2px 5px #000;
 position: relative;
 overflow: hidden;
-padding: 10px;
+padding: 15px;
 
 a{
     text-decoration: none;
@@ -20,7 +20,7 @@ a{
     transition: 0.2s linear;
     text-overflow: clip ellipsis;
     :hover{
-        text-shadow: 1px 1px 10px #fff;
+        text-shadow: 0px 0px 4px #fff;
     }
 }
 
@@ -30,16 +30,17 @@ img.wall{
   
     border-radius: 10px;
     position: absolute ;
-  top:60px;
-    right: 0;
+    top:60px;
+    right:15px;
     opacity:1;
+
 }
 .blox{
+    
     padding: 20px;
-width: 40%;
-min-height: 100%;
-
-position: absolute;
+    width: 40%;
+    min-height: 100%;
+    position: absolute;
 
 }
 
@@ -48,7 +49,7 @@ position: absolute;
     width: 100%;
 
     .exp{
-        width: 60%;
+        width: 100%;
         box-shadow: 2px 2px 5px aqua,-2px -2px 5px purple;
         margin-top: 20px;
         margin-left: 5px;
