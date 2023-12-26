@@ -91,7 +91,7 @@
   },
   {
     "name": "RabbitMQ",
-    "img": "https://www.ibm.com/content/dam/adobe-cms/instana/media_logo/Rabbit.png/_jcr_content/renditions/cq5dam.web.1280.1280.png",
+    "img": "https://images.ctfassets.net/o7xu9whrs0u9/6qR4PTwCTfgl0tjfrz0lpy/819fecae70412dacb9b960b98f5fae3b/RabbitMQ-LOGO.png",
     "desc":"O RabbitMQ é um software de mensagens com código aberto, que implementou o protocolo 'Advanced Message Queuing Protocol', que foi estendido com uma arquitetura de plug-in para suportar o protocolo 'Streaming Text Oriented Messaging Protocol', o MQTT entre outros protocolos."
   },
   {

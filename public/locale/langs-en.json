@@ -1,0 +1,108 @@
+[
+    {
+      "name": "javascript",
+      "desc": "JavaScript is a high-level, interpreted, structured programming language with weak dynamic typing and multiparadigm support. Along with HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web.",
+      "img": "https://camo.githubusercontent.com/442c452cb73752bb1914ce03fce2017056d651a2099696b8594ddf5ccc74825e/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6a6176617363726970742f6a6176617363726970742d6f726967696e616c2e737667"
+    },
+    {
+      "name": "html",
+      "desc": "HTML is a markup language used in building web pages. HTML documents can be interpreted by browsers.",
+      "img": "https://camo.githubusercontent.com/da7acacadecf91d6dc02efcd2be086bb6d78ddff19a1b7a0ab2755a6fda8b1e9/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f68746d6c352f68746d6c352d6f726967696e616c2e737667"
+    },
+    {
+      "name": "css",
+      "desc": "Cascading Style Sheets is a mechanism for adding style to a web document. CSS code can be applied directly in tags or contained within <style> tags. It's also possible to link to a CSS file containing styles instead of embedding formatting in the document.",
+      "img": "https://camo.githubusercontent.com/2e496d4bfc6f753ddca87b521ce95c88219f77800212ffa6d4401ad368c82170/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636o6e732f637373332f637373332d6f726967696e616c2e737667"
+    },
+    {
+      "name": "nodejs",
+      "desc": "Node.js is open-source, cross-platform software based on Google's V8 engine. It allows the execution of JavaScript code outside of a web browser.",
+      "img": "https://camo.githubusercontent.com/900baefb89e187c8b32cdbb3b440d1502fe8f30a1a335cc5dc5868af0142f8b1/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6e6f64656a732f6e6f64656a732d6f726967696e616c2e737667"
+    },
+    {
+      "name": "Reactjs",
+      "desc": "React is an open-source JavaScript front-end library focused on creating user interfaces for web pages.",
+      "img": "https://camo.githubusercontent.com/27d0b117da00485c56d69aef0fa310a3f8a07abecc8aa15fa38c8b78526c60ac/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f72656163742f72656163742d6f726967696e616c2e737667"
+    },
+    {
+      "name": "nextjs",
+      "desc": "Next.js is an open-source React-based web development framework created by Vercel. It enables features like server-side rendering and static site generation for React-based web applications.",
+      "img": "https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png"
+    },
+    {
+      "name": "typescript",
+      "desc": "TypeScript is an open-source programming language developed by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language.",
+      "img": "https://camo.githubusercontent.com/aa8b3e6b6fc55ea158e132e1c33ba6aa7fe49706a4e4bd64701af1cf89f514b5/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f747970657363726970742f747970657363726970742d6f726967696e616c2e737667"
+    },
+    {
+      "name": "express",
+      "desc": "Express.js is a framework for Node.js that provides minimal resources for building web servers. It was released as free and open-source software under the MIT License. It is one of the most popular frameworks for Node.js servers.",
+      "img": "https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234.png"
+    },
+    {
+      "name": "Rust",
+      "desc": "Rust is a compiled multiparadigm programming language developed by Mozilla Research. It is designed to be 'safe, concurrent, and practical,' but unlike other safe languages, Rust does not use a garbage collector. It has native support for WebAssembly.",
+      "img": "https://www.nicepng.com/png/full/308-3084680_rust-programming-language-rust-programming-language-logo.png"
+    },
+    {
+      "name": "python",
+      "desc": "Python is a high-level, interpreted scripting language with imperative, object-oriented, functional, dynamic typing, and strong typing. It was released by Guido van Rossum in 1991.",
+      "img": "https://camo.githubusercontent.com/dd8b0601cdfefe534a6a26f4c29c7f8a5fcfc315002655f519c73121f7bad8bc/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f707974686f6e2f707974686f6e2d6f726967696e616c2e737667"
+    },
+    {
+      "name": "java",
+      "desc": "Java is an object-oriented programming language developed in the 1990s by a team of programmers led by James Gosling at Sun Microsystems, which was acquired by Oracle Corporation in 2008.",
+      "img": "https://camo.githubusercontent.com/65b616ed4448c46e59c11345a1d49a01adc6d51f9bd6e93ee61d29573e04c597/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6a6176612f6a6176612d6f726967696e616c2d776f72646d61726b2e737667"
+    },
+    {
+      "name": "git",
+      "desc": "Git is a distributed version control system, primarily used in software development but can be used to track changes in any type of file.",
+      "img": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+    },
+    {
+      "name": "heroku",
+      "desc": "Heroku is a platform-as-a-service cloud platform that supports multiple programming languages. It is one of the earliest cloud platforms.",
+      "img": "https://camo.githubusercontent.com/e28ded186e568aba00abd5c8830f26d821add2d97ddf4a41cf545ec6a1245758/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6865726f6b752f6865726f6b752d706c61696e2e737667"
+    },
+    {
+      "name": "mongoDB",
+      "desc": "MongoDB is a free, open-source, cross-platform document-oriented database software.",
+      "img": "https://img.icons8.com/color/480/mongodb.png"
+    },
+    {
+      "name": "mySql",
+      "desc": "MySQL is a database management system that uses the SQL language as an interface. It is currently one of the most popular database management systems by Oracle Corporation, with over 10 million installations worldwide.",
+      "img": "https://pngimg.com/uploads/mysql/mysql_PNG11.png"
+    },
+    {
+      "name": "VueJs",
+      "desc": "Vue.js is an open-source JavaScript framework focused on developing user interfaces and single-page applications.",
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+    },
+    {
+      "name": "NestJs",
+      "desc": "NestJS is an open-source Node.js framework for server-side application development. It was created by Kamil Mysliwiec and released in 2017. Under the hood, NestJS defaults to using the Express.js framework and is also compatible with Fastify. Its architecture is strongly inspired by Angular.",
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg"
+    },
+    {
+      "name": "Spring",
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+      "desc": "Spring is an open-source framework for the Java platform created by Rod Johnson and described in his book 'Expert One-on-One: JEE Design and Development.' It is a non-intrusive framework based on the inversion of control and dependency injection design patterns."
+    },
+    {
+      "name": "RabbitMQ",
+      "img": "https://images.ctfassets.net/o7xu9whrs0u9/6qR4PTwCTfgl0tjfrz0lpy/819fecae70412dacb9b960b98f5fae3b/RabbitMQ-LOGO.png",
+      "desc":"RabbitMQ is open-source message broker software that has implemented the Advanced Message Queuing Protocol, which has been extended with a plugin architecture to support the Streaming Text Oriented Messaging Protocol (STOMP), MQTT, and other protocols."
+    },
+    {
+      "name": "Redis",
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+      "desc": "Redis is an in-memory data structure store, used as a distributed key-value database, cache, and message broker, with optional durability."
+    },
+    {
+      "name": "Docker",
+      "desc": "Docker is a set of platform-as-a-service products that use operating system-level virtualization to deliver software in packages called containers. Containers are isolated from each other and bundle their own software, libraries, and configuration files.",
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+    }
+  ]
+  

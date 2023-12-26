@@ -4,15 +4,20 @@ import Ssection from "../styledComponents/sSection";
 import Image from "next/image";
 import perfil from '../public/perfil.jpeg'
 import Ipost from "../interfaces/Ipost";
-import langs from "../data/langs.json"
+import langs from "../public/locale/langs.json"
 import Boxmsg from "./boxMsg";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
+
 
 export default function Section(post: Ipost) {
+        const {t}= useTranslation()
+        
         const [text, setText] = useState<string>()
         const [icon, setIco] = useState<string>()
         const [title, setTitle] = useState<string>()
         const [vis, setVis] = useState<boolean>()
+     
         function check(index: number) {
                 setText(langs[index].desc)
                 setTitle(langs[index].name)
@@ -26,7 +31,7 @@ export default function Section(post: Ipost) {
 
                 return <> <Ssection>
 
-                        <h2>who i am:</h2>
+                        <h2>{t('frase.teste')}</h2>
                         <div className="perfil" >
                                 <Image src={perfil} width={400} height={400} alt='perfil' />
 

@@ -1,7 +1,6 @@
 import Project from "../components/project";
 
-
-import projectsData from '../data/projects.json'
+import projectsData from "../public/locale/projects.json"
 
 import Head from "next/head";
 import Erro from "../components/erro";

@@ -1,7 +1,8 @@
 import Project from "../components/project";
 import Section from "../components/section";
 import { Iproject } from "../interfaces/Iproject";
-import projectsData from '../data/projects.json'
+
+import projectsData from "../public/locale/projects.json"
 import { Router, useRouter } from "next/router";
 import Head from "next/head";
 import Erro from "../components/erro";

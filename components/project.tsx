@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+
 
 import { useEffect, useRef } from "react";
 import { Iproject } from "../interfaces/Iproject";

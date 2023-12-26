@@ -30,18 +30,17 @@ img.wall{
   
     border-radius: 10px;
     position: absolute ;
-    top:60px;
+    top:120px;
     right:15px;
     opacity:1;
 
 }
 .blox{
-    
+    height: 100%;
     padding: 20px;
     width: 40%;
     min-height: 100%;
-    position: absolute;
-
+    
 }
 
 .legend{
