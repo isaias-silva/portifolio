@@ -60,6 +60,23 @@ img.wall{
      
     }
 }
+.stack-group{
+    width: 95%;
+    min-height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .image{
+      margin: 8px;
+    img{
+        width: 40px;
+    }
+    }
+    
+}
 .perfil{
     overflow: hidden;
     width: 340px;

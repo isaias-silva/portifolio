@@ -13,10 +13,11 @@ type ProjectRender = {
     element: JSX.Element,
     img: string,
     link?: string,
-    linkRepo: string
+    linkRepo: string,
+    stack: string[]
 }
 export default function ProjFront() {
-  
+
 
     const [projectState, setProjectState] = useState<ProjectRender[]>([])
     useEffect(() => {
@@ -29,32 +30,28 @@ export default function ProjFront() {
                     element: <p>{value.resume}</p>,
                     img: value.img,
                     link: value.link,
-                    linkRepo: value.linkRepo
+                    linkRepo: value.linkRepo,
+                    stack: value.stack
                 }
             })
 
         setProjectState(projectNow)
     }, [])
 
-   
+
     return <>
         <Head>
             <title>
                 projetos backend
             </title>
         </Head>
-    
+
         {
 
             projectState.map((x, i) => {
                 return <Project
-                    linkRepo={x.linkRepo}
-                    type={x.type}
-                    title={x.title}
-                    element={x.element}
-                    img={x.img}
-                    key={i}
-                    link={x.link} />
+                 {... x}
+                />
 
 
 
