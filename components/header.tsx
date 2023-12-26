@@ -4,9 +4,11 @@ import SHeader from "../styledComponents/sHeader";
 import Image from "next/image"
 import logo from "../public/logo.png"
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
+
 export default function Header() {
     const [visibleMenu, setVisible] = useState<boolean>(false)
-
+const {t}=useTranslation()
     const toogle = () => {
         setVisible(!visibleMenu)
     }
@@ -33,17 +35,18 @@ export default function Header() {
 
             <ul className={visibleMenu ? 'normal' : 'invisible'}>
                 <li>
-                    <Link href={"/"}>home</Link>
+                    <Link href={"/"}>{t('pharses.home')}</Link>
                 </li>
                 <li>
-                    <Link href={"/front"}>projetos frontend</Link>
+                    <Link href={"/front"}>{t('pharses.front')}</Link>
                 </li>
                 <li>
-                    <Link href={"/back"}>projetos backend</Link>
+                    <Link href={"/back"}>{t('pharses.back')}</Link>
                 </li>
                 <li>
-                    <Link href={"/auto"}> projetos de automação</Link>
+                    <Link href={"/auto"}>{t('pharses.auto')}</Link>
                 </li>
+              
             </ul>
 
 

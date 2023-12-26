@@ -4,20 +4,24 @@ import Ssection from "../styledComponents/sSection";
 import Image from "next/image";
 import perfil from '../public/perfil.jpeg'
 import Ipost from "../interfaces/Ipost";
-import langs from "../public/locale/langs.json"
+import langsJson from "../public/locale/langs.json"
 import Boxmsg from "./boxMsg";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
+type Stack = { img?: string, desc?: string, name?: string }
 
 export default function Section(post: Ipost) {
-        const {t}= useTranslation()
-        
+        const { t, ready, i18n } = useTranslation()
+       
+        const langs: Array<Stack> = t('langs', { returnObjects: true })
+
+
         const [text, setText] = useState<string>()
         const [icon, setIco] = useState<string>()
         const [title, setTitle] = useState<string>()
         const [vis, setVis] = useState<boolean>()
-     
+
         function check(index: number) {
                 setText(langs[index].desc)
                 setTitle(langs[index].name)
@@ -29,16 +33,18 @@ export default function Section(post: Ipost) {
                         return <div className="conhecimento" key={i} onClick={() => { check(i) }}><img src={language.img} alt="image" title={language.name} /></div>
                 })
 
+               const softskills:Array<String>= t('pharses.softskillItems',{returnObjects:true})
+               const languages:Array<String>= t('pharses.languagesItems',{returnObjects:true})
                 return <> <Ssection>
 
-                        <h2>{t('frase.teste')}</h2>
+                        <h2>{t("key")}:</h2>
                         <div className="perfil" >
                                 <Image src={perfil} width={400} height={400} alt='perfil' />
 
                         </div>
-                        <p>meu nome é Isaías, tenho 20 anos, sou estudante de ciência da computação e desenvolvedor fullstack!</p>
+                        <p>{t('pharses.presentation')}</p>
 
-                        <h2>my hardskills:</h2>
+                        <h2>{t('pharses.hardskill')}:</h2>
                         <div className="stack">
                                 {hardskills}
 
@@ -48,29 +54,17 @@ export default function Section(post: Ipost) {
 
 
                         <h2>
-                                Softskills:
+                               {t('pharses.softskill')}:
                         </h2>
                         <ul>
-                                <li>
-                                        autodidata
-                                </li>
-                                <li>
-                                        dedicado
-                                </li>
-                                <li>
-                                        communicativo
-                                </li>
+                           {softskills.map((value)=><li key={value.toString()}>{value}</li>)}
                         </ul>
-                        <h2>languages:</h2>
+                        <h2>{t('pharses.languages')}</h2>
                         <ul>
-                                <li>
-                                        espanhol
-                                </li>
-                                <li>
-                                        inglês
-                                </li>
+                           {languages.map((value)=><li key={value.toString()}>{value}</li>)}
+                           
                         </ul>
-                        <h2>contact:</h2>
+                        <h2>{t('pharses.contact')}:</h2>
                         <div className="contacts">
 
 

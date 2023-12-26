@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Essia",
+        "position": "Internship",
+        "period": "2021 ~ 2022",
+        "description": "Internship in the field of computer science, tasks included: creating XML pages, styling with CSS, and editing images."
+    },
+    {
+        "title": "Blend Group",
+        "period": "2022",
+        "position": "Frontend Jr",
+        "description": "Development of web pages using frameworks such as Next.js, React.js, and Vue.js."
+    },
+    {
+        "title": "Aricode",
+        "position": "Freelancer",
+        "period": "2022",
+        "description": "Activities as a fullstack Typescript developer, involved in developing applications for servers, graphical interfaces, and automations."
+    }
+]

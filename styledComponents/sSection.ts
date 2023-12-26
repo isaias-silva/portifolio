@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 const Ssection = styled.section`
 background-color: #00000099;
-width: 90%;
+width: 80%;
 min-height: 500px;
 margin: auto;
 margin-top: 100px;
 margin-bottom: 50px;
 color:#fff;
 border-radius: 10px;
-box-shadow: 2px 2px 5px #000;
+box-shadow: 4px 4px 7px #000;
 position: relative;
 overflow: hidden;
 padding: 15px;

@@ -4,7 +4,11 @@ background-color: black;
 position: relative;
 bottom: 0;
 width: 100%;
-height: 20px;
+height: 50px;
 color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
 `
 export default Sfooter

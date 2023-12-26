@@ -2,21 +2,21 @@
   
     {
         "title": "Essia",
-        "cargo": "Estágio",
-        "periodo":"2021 ~ 2022",
-        "descricao": "    estágio na área de informática, atividades como: criação páginas xml, estilização com css e edição de imagens."
+        "position": "Estágio",
+        "period":"2021 ~ 2022",
+        "description": "    estágio na área de informática, atividades como: criação páginas xml, estilização com css e edição de imagens."
     },
 
     {
         "title": "Grupo Blend",
-        "periodo":"2022",
-        "cargo": "Frontend Jr",
-        "descricao": "Desenvolvimento de páginas web com uso de frameworks como nextjs reactjs e vuejs."
+        "period":"2022",
+        "position": "Frontend Jr",
+        "description": "Desenvolvimento de páginas web com uso de frameworks como nextjs reactjs e vuejs."
     },
     {
         "title": "Aricode",
-        "cargo": "freelancer",
-        "periodo":"2022",
-        "descricao": "atividades como fullstack Typescript, desenvolvendo aplicações para servidores, interfaces gráficas e automações."
+        "position": "freelancer",
+        "period":"2022",
+        "description": "atividades como fullstack Typescript, desenvolvendo aplicações para servidores, interfaces gráficas e automações."
     }
 ]

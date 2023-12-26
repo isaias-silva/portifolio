@@ -1,0 +1,14 @@
+{
+    "presentation": "My name is Isaías, I'm 20 years old, graduated in computer science, and a full-stack developer!",
+    "hardskill": "Technical Skills",
+    "softskill": "Soft Skills",
+    "softskillItems": ["Self-taught", "Dedicated", "Attentive", "Communicative"],
+    "languages": "Languages",
+    "languagesItems": ["English", "Spanish", "Portuguese"],
+    "contact": "Contact",
+    "home": "Home",
+    "front": "Frontend Projects",
+    "back": "Backend Projects",
+    "auto": "Automation Projects",
+    "experience":"Experience"
+}

@@ -117,7 +117,8 @@ const SHeader = styled.header`
    .menu{
     ul{
        
-        li{ margin:0;
+        li,select{
+             margin:0;
         top:0;
         left:-15px;
         font-size: 14px;
