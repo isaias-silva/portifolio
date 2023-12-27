@@ -42,7 +42,7 @@ export default function ProjBack() {
     return <>
         <Head>
             <title>
-                projetos backend
+              backend
             </title>
         </Head>
 

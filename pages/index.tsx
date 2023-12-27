@@ -29,12 +29,12 @@ const Home: NextPage = () => {
 
   return (<>
     <Head>
-      <meta name='description' content='portifólio de zack santos ou isaias santos, desenvolvedor fullstack' />
+      <meta name='description' content={t('pharses.desc')} />
       <meta name='author' content='isaias santos' />
-      <meta name='keywords' content='programador, desenvolvedor, fullstack, typescript, javascript, nodejs, freelancer, isaias, zack santos' />
+      <meta name='keywords' content={t('pharses.keywords')} />
       <meta name='robots' content='index,follow' />
       <title>
-        bem vindo!
+        {t('pharses.wellcome')}
       </title>
 
     </Head>

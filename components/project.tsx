@@ -37,14 +37,14 @@ export default function Project(project: Iproject) {
 
                         <h2>{project.title}</h2>
                         <div className="stack-group">
-                        {project.stack.map((stack) => {
-                                const item = langs.find(value => value.name == stack)
-                                return <div className="image">
-                                        <img src={item?.img} />
+                                {project.stack.map((stack) => {
+                                        const item = langs.find(value => value.name == stack)
+                                        return <div className="image">
+                                                <img src={item?.img} />
 
-                                </div>
-                        })}
-                </div>
+                                        </div>
+                                })}
+                        </div>
                         <br />
                         <div className="legend" >
                                 {project.element}
@@ -69,7 +69,7 @@ export default function Project(project: Iproject) {
                                 </div>
                         </div>
                 </div>
-               
+
         </Ssection>
 
 }

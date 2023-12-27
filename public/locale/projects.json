@@ -29,7 +29,7 @@
   {
     "type": "front",
     "title": "floatbook",
-    "linkRepo": "https://github.com/isaias-silva/floatbook",
+    "linkRepo": "https://github.com/isaias-silva/floatbook-frontend",
     "img": "https://i.ibb.co/VQvQV22/Captura-de-tela-de-2022-10-23-14-01-42.png",
     "resume": "interface inspirada no facebook feita com React.",
     "stack": ["react", "typescript", "css"]
@@ -61,14 +61,7 @@
     "resume": "api que retorna personagens 'stands' do mangá JoJo`s Bizarre adventures, desenvolvido com Javascript(nodejs) ultilizando express, conexão a banco de dados mongo e conhecimento em requisições http.",
     "stack": ["typescript", "express", "docker", "mysql"]
   },
-  {
-    "type": "back",
-    "title": "cybersec backend",
-    "linkRepo": "https://github.com/CyberSecurityti/cybersecblog-backend",
-    "img": "https://camo.githubusercontent.com/d196693cf5e07f54bea3696b7446f9505b8530ba9d8f6dd374772eadc68e1fbf/68747470733a2f2f692e696d6775722e636f6d2f42304c515a77362e6a7067",
-    "resume": "Backend do blog da comunidade Cybersec sobre web segurança e programação, projeto feito em conjunto com os membros da comunidade Cybersec, com uso das tecnologias Typescript, mongoDB e JWT.",
-    "stack": ["typescript", "express", "mongodb"]
-  },
+
   {
     "type": "back",
     "title": "scrapApi",

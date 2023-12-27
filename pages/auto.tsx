@@ -13,10 +13,10 @@ type ProjectRender = {
     img: string,
     link?: string,
     linkRepo: string,
-    stack:string[]
+    stack: string[]
 }
 export default function ProjAuto() {
-  
+
 
     const [projectState, setProjectState] = useState<ProjectRender[]>([])
     useEffect(() => {
@@ -30,27 +30,27 @@ export default function ProjAuto() {
                     img: value.img,
                     link: value.link,
                     linkRepo: value.linkRepo,
-                    stack:value.stack
+                    stack: value.stack
                 }
             })
 
         setProjectState(projectNow)
     }, [])
 
-  
+
     return <>
         <Head>
             <title>
-                projetos backend
+                automation
             </title>
         </Head>
-    
+
         {
 
             projectState.map((x, i) => {
                 return <Project
                     {...x}
-                    />
+                />
 
 
 

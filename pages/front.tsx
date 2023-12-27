@@ -42,7 +42,7 @@ export default function ProjFront() {
     return <>
         <Head>
             <title>
-                projetos backend
+             frontend
             </title>
         </Head>
 

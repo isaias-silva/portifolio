@@ -34,6 +34,13 @@ const SHeader = styled.header`
                     }
                 }
             }
+            li.active a{
+                
+                        color:white;
+                        text-shadow: 0 0 10px aqua;
+                        border-bottom: 1px solid aqua;
+                    
+            }
         }
     }
 .title{

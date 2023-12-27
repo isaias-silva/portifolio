@@ -3,15 +3,21 @@ import Link from "next/link";
 import SHeader from "../styledComponents/sHeader";
 import Image from "next/image"
 import logo from "../public/logo.png"
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { useRouter } from "next/router";
 
 export default function Header() {
     const [visibleMenu, setVisible] = useState<boolean>(false)
-const {t}=useTranslation()
+    const { t } = useTranslation()
     const toogle = () => {
         setVisible(!visibleMenu)
     }
+    const router = useRouter()
+
+    const refPath = router.pathname
+
+    console.log(refPath)
     return <SHeader>
         <div className="title">
             <Link href={'/'}>
@@ -34,19 +40,19 @@ const {t}=useTranslation()
             </div>
 
             <ul className={visibleMenu ? 'normal' : 'invisible'}>
-                <li>
-                    <Link href={"/"}>{t('pharses.home')}</Link>
+                <li className={refPath == '/' ? 'active' : 'normal'}>
+                    <Link href={"/"} >{t('pharses.home')}</Link>
                 </li>
-                <li>
-                    <Link href={"/front"}>{t('pharses.front')}</Link>
+                <li className={refPath == '/front' ? 'active' : 'normal'}>
+                    <Link href={"/front"} >{t('pharses.front')}</Link>
                 </li>
-                <li>
-                    <Link href={"/back"}>{t('pharses.back')}</Link>
+                <li className={refPath == '/back' ? 'active' : 'normal'}>
+                    <Link href={"/back"} >{t('pharses.back')}</Link>
                 </li>
-                <li>
-                    <Link href={"/auto"}>{t('pharses.auto')}</Link>
+                <li className={refPath == '/auto' ? 'active' : 'normal'}>
+                    <Link href={"/auto"} >{t('pharses.auto')}</Link>
                 </li>
-              
+
             </ul>
 
 
