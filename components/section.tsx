@@ -8,12 +8,13 @@ import langsJson from "../public/locale/langs.json"
 import Boxmsg from "./boxMsg";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import SminSection from "../styledComponents/sMinSection";
 
 type Stack = { img?: string, desc?: string, name?: string }
 
 export default function Section(post: Ipost) {
         const { t, ready, i18n } = useTranslation()
-       
+
         const langs: Array<Stack> = t('langs', { returnObjects: true })
 
 
@@ -33,9 +34,9 @@ export default function Section(post: Ipost) {
                         return <div className="conhecimento" key={i} onClick={() => { check(i) }}><img src={language.img} alt="image" title={language.name} /></div>
                 })
 
-               const softskills:Array<String>= t('pharses.softskillItems',{returnObjects:true})
-               const languages:Array<String>= t('pharses.languagesItems',{returnObjects:true})
-                return <> <Ssection>
+                const softskills: Array<String> = t('pharses.softskillItems', { returnObjects: true })
+                const languages: Array<String> = t('pharses.languagesItems', { returnObjects: true })
+                return <> <SminSection>
 
                         <h2>{t("key")}:</h2>
                         <div className="perfil" >
@@ -54,15 +55,15 @@ export default function Section(post: Ipost) {
 
 
                         <h2>
-                               {t('pharses.softskill')}:
+                                {t('pharses.softskill')}:
                         </h2>
                         <ul>
-                           {softskills.map((value)=><li key={value.toString()}>{value}</li>)}
+                                {softskills.map((value) => <li key={value.toString()}>{value}</li>)}
                         </ul>
                         <h2>{t('pharses.languages')}</h2>
                         <ul>
-                           {languages.map((value)=><li key={value.toString()}>{value}</li>)}
-                           
+                                {languages.map((value) => <li key={value.toString()}>{value}</li>)}
+
                         </ul>
                         <h2>{t('pharses.contact')}:</h2>
                         <div className="contacts">
@@ -77,7 +78,7 @@ export default function Section(post: Ipost) {
                                 <a href="https://github.com/isaias-silva" target={'_blank'} rel="noreferrer"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
 
                         </div>
-                </Ssection>
+                </SminSection>
                         {
                                 vis ? <Boxmsg onClose={async () => setVis(false)} text={text} icon={icon} title={title}></Boxmsg> : null
                         }

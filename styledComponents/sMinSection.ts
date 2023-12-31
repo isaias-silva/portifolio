@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-const Ssection = styled.section`
+const SminSection = styled.section`
 background-color: #00000099;
-width: 90%;
+width: 80%;
 min-height: 500px;
 margin: auto;
 margin-top: 100px;
@@ -13,7 +13,7 @@ position: relative;
 overflow: hidden;
 padding: 15px;
 
-padding-bottom: 0;
+
 a{
     text-decoration: none;
     color:pink;
@@ -31,7 +31,7 @@ img.wall{
   
     border-radius: 10px;
     position: absolute ;
-    top:110px;
+    top:120px;
     right:15px;
     opacity:1;
 
@@ -41,7 +41,6 @@ img.wall{
     padding: 20px;
     width: 40%;
     min-height: 100%;
-   
     
 }
 
@@ -159,4 +158,4 @@ div.legend{
 }
     
 `
-export default Ssection
+export default SminSection
