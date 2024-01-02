@@ -12,7 +12,7 @@ box-shadow: 4px 4px 7px #000;
 position: relative;
 overflow: hidden;
 padding: 15px;
-
+backdrop-filter: blur(4px);
 
 a{
     text-decoration: none;

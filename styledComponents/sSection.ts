@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-const Ssection = styled.section`
+const Ssection =styled.section`
+
 background-color: #00000099;
 width: 90%;
 min-height: 500px;
@@ -8,10 +9,11 @@ margin-top: 100px;
 margin-bottom: 50px;
 color:#fff;
 border-radius: 10px;
-box-shadow: 4px 4px 7px #000;
+box-shadow: 3px 3px 4px #000;
 position: relative;
 overflow: hidden;
 padding: 15px;
+backdrop-filter: blur(4px);
 
 padding-bottom: 0;
 a{
@@ -36,12 +38,21 @@ img.wall{
     opacity:1;
 
 }
+img.wall.experience{
+    top:15px;
+  right: 0;
+  width: 40%;
+  
+}
 .blox{
     height: 100%;
     padding: 20px;
     width: 40%;
     min-height: 100%;
-   
+   p{
+    font-size: 18px;
+    text-align: justify;
+   }
     
 }
 
@@ -143,6 +154,7 @@ ul{
     position: relative;
  margin: auto;
 }
+
 div.legend{
   width  :90% ;
   margin: auto;

@@ -43,15 +43,13 @@ export default function Header() {
                 <li className={refPath == '/' ? 'active' : 'normal'}>
                     <Link href={"/"} >{t('pharses.home')}</Link>
                 </li>
-                <li className={refPath == '/front' ? 'active' : 'normal'}>
-                    <Link href={"/front"} >{t('pharses.front')}</Link>
+                <li className={refPath == '/projects' ? 'active' : 'normal'}>
+                    <Link href={"/projects"} >{t('pharses.projects')}</Link>
                 </li>
-                <li className={refPath == '/back' ? 'active' : 'normal'}>
-                    <Link href={"/back"} >{t('pharses.back')}</Link>
-                </li>
-                <li className={refPath == '/auto' ? 'active' : 'normal'}>
-                    <Link href={"/auto"} >{t('pharses.auto')}</Link>
-                </li>
+           <li className={refPath=='/experiences'?'active':'normal'}>
+                <Link href={'/experiences'}>{t('pharses.experience')}</Link>
+
+           </li>
 
             </ul>
 

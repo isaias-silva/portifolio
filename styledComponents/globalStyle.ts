@@ -22,6 +22,7 @@ background-size: cover;
     z-index: -1;
     position:fixed;
     background-color: #000;
+    background-image: url('background.png');
     filter: opacity(0.6);
   
     width: 100%;

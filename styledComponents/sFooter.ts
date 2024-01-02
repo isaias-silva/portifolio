@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 const Sfooter=styled.footer`
 background-color: black;
-position: relative;
-bottom: 0;
+position: absolute;
+bottom: 50;
+margin-top: 50px;
 width: 100%;
-height: 50px;
+height: 40px;
 color: #fff;
 display: flex;
 justify-content: space-between;

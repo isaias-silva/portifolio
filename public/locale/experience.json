@@ -1,22 +1,25 @@
 [
-  
-    {
-        "title": "Essia",
-        "position": "Estágio",
-        "period":"2021 ~ 2022",
-        "description": "    estágio na área de informática, atividades como: criação páginas xml, estilização com css e edição de imagens."
-    },
-
-    {
-        "title": "Grupo Blend",
-        "period":"2022",
-        "position": "Frontend Jr",
-        "description": "Desenvolvimento de páginas web com uso de frameworks como nextjs reactjs e vuejs."
-    },
-    {
-        "title": "Aricode",
-        "position": "freelancer",
-        "period":"2022",
-        "description": "atividades como fullstack Typescript, desenvolvendo aplicações para servidores, interfaces gráficas e automações."
-    }
+  {
+    "title": "Estágio na Essia",
+    "position": "Desenvolvedor de Software - Estágio",
+    "period": "2021 ~ 2022",
+    "img":"https://inovacao.faber-castell.com.br/wp-content/uploads/2022/06/logo-essia.png",
+    "description": "Durante meu estágio na Essia, tive a oportunidade de aprimorar minhas habilidades na área de informática. Minhas principais responsabilidades incluíam a criação de páginas XML, a aplicação de estilos utilizando CSS e a edição de imagens. Essa experiência proporcionou um ambiente de aprendizado prático e contribuiu para o desenvolvimento das minhas competências técnicas."
+  },
+  {
+    "title": "Frontend Jr no Grupo Blend",
+    "position": "Desenvolvedor Frontend Júnior",
+    "period": "2022",
+    "img":"https://grupoblend.com.br/images/cases/evento-futuro.jpg",
+    
+    "description": "Na minha posição como Desenvolvedor Frontend Júnior no Grupo Blend, tive a oportunidade de trabalhar no desenvolvimento de páginas web. Utilizei frameworks modernos, como Next.js, React.js e Vue.js, para criar interfaces interativas e responsivas. Essa experiência me permitiu aprofundar meus conhecimentos em tecnologias frontend e colaborar efetivamente em projetos dinâmicos e inovadores."
+  },
+  {
+    "title": "Freelancer na Aricode",
+    "position": "Desenvolvedor Fullstack TypeScript - Freelancer",
+    "period": "2022",
+    "img":"aricode.jpg",
+    
+    "description": "Como freelancer na Aricode, atuei como desenvolvedor Fullstack TypeScript. Minhas responsabilidades abrangiam o desenvolvimento de aplicações para servidores, a criação de interfaces gráficas envolventes e a implementação de soluções para automações. Essa experiência me desafiou a aplicar minhas habilidades de forma versátil, contribuindo para projetos diversificados e aprimorando minha proficiência em desenvolvimento fullstack."
+  }
 ]

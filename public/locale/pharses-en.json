@@ -7,10 +7,9 @@
   "languagesItems": ["English", "Spanish", "Portuguese"],
   "contact": "Contact",
   "home": "Home",
-  "front": "Frontend Projects",
-  "back": "Backend Projects",
-  "auto": "Automation Projects",
-  "experience": "Experience",
+  "projects": "Projects",
+
+  "experience": "Experiences",
   "desc": "Zack Santos or Isaias Santos' portfolio, fullstack developer",
   "keywords": "programmer, developer, fullstack, typescript, javascript, nodejs, freelancer, isaias, zack santos",
   "wellcome":"wellcome!"
