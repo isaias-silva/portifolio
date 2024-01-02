@@ -39,7 +39,7 @@ export default function Project(project: Iproject) {
                         <div className="stack-group">
                                 {project.stack.map((stack) => {
                                         const item = langs.find(value => value.name == stack)
-                                        return <div className="image">
+                                        return <div className="image" key={stack}>
                                                 <img src={item?.img} />
 
                                         </div>

@@ -48,7 +48,7 @@ export default function ProjAuto() {
         {
 
             projectState.map((x, i) => {
-                return <Project
+                return <Project key={x.title}
                     {...x}
                 />
 

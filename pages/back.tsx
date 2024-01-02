@@ -49,7 +49,7 @@ export default function ProjBack() {
         {
 
             projectState.map((x, i) => {
-                return <Project
+                return <Project key={x.title}
                    {...x} />
 
 
