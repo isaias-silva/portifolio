@@ -117,9 +117,19 @@ img.wall{
  
    
     @media screen and (max-width: 745px){
+        width: 90%;
         h2{
             border-bottom: 1px inset aqua;
-            box-shadow: 0 10px 10px #000;
+           width: 100%;
+           text-align: center;
+        }
+        ul{
+            width: 80%;
+            margin: 0;
+            li{
+                width: 100%;
+                text-align: center;
+            }
         }
 
   text-align: center;
@@ -127,10 +137,21 @@ img.wall{
   .perfil{
     float:none;
     margin:auto;
-    width: 30%;
+    width: 200px;
+    height: 200px;
   }
   .stack,.contacts{
     width: 100%;
+  }
+  .contacts{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .stack{
+    img{
+        width: 50px;
+        margin: 5px;
+    }
   }
 ul{
     li{list-style: none;

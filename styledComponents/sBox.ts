@@ -49,7 +49,7 @@ backdrop-filter: blur(4px);
 }
 @media screen and (max-width: 745px){
   .box{
-    width: 70%;
+    width: 90%;
   }
 }
 `

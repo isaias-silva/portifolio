@@ -139,42 +139,77 @@ h3.large{
  
    
     @media screen and (max-width: 745px){
+        width:90%;
+        padding:0;
+        text-align: center;
+        padding-bottom:50px;
         h2{
             border-bottom: 1px inset aqua;
-            box-shadow: 0 10px 10px #000;
+          width: 80%;
+          margin:auto
         }
 
-  text-align: center;
+            
+                .stack,.contacts{
+                    width: 100%;
+                }
+                ul{
+                    li{list-style: none;
+                    }
+                }
 
-  .perfil{
-    float:none;
-    margin:auto;
-    width: 30%;
-  }
-  .stack,.contacts{
-    width: 100%;
-  }
-ul{
-    li{list-style: none;
-    }
+                img.wall{
+                    width: 100%;
+                    position: relative;
+                margin: auto;
+                left:0;
+                }
+.blox{
+    left:0;
+    right:0;
+    width:100%;
+    padding:0;
+    position:relative;
+    margin: 0;
+    p.large{
+    padding:15px;
+    font-size: 16px;
+   }
+
 }
-
-   img.wall{
-    width: 70%;
-    position: relative;
- margin: auto;
+.stack-group{
+    display:flex;
+    justify-content: center
 }
+img.wall.experience{
+    position:relative;
+    width: 80%;
 
-div.legend{
-  width  :90% ;
-  margin: auto;
- display: flex;
- flex-wrap: wrap;
- 
-    justify-content: space-between;
-    .exp{
-       margin: auto;
-    }
+}
+h3.large{
+    font-size: 18px;
+   }
+   
+
+
+
+                div.legend{
+                width:90% ;
+                margin: auto;
+                display: flex;
+                flex-wrap: wrap;
+                padding:0;
+                
+                    justify-content: center;
+                    .exp{
+                    margin: auto;
+                 
+                    margin-bottom: 20px;
+                a{
+                    text-align: center;
+width: 100%;
+                } 
+                }
 }
 
 

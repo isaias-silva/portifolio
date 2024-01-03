@@ -4,6 +4,7 @@ const SHeader = styled.header`
     width: 100%;
     display: flex;
     position: fixed;
+   
     top:0;
     justify-content: space-between;
     background-color: #02020299;
@@ -111,8 +112,9 @@ const SHeader = styled.header`
 }
 @media screen and (max-width: 745px){
    height: auto;
-   min-height:100px ;
+   min-height:100px;
    position: relative;
+   width: 100%;
     top:0;
     .title{
         width: 40%;
@@ -123,7 +125,12 @@ const SHeader = styled.header`
     }
    .menu{
     ul{
-       
+        transition: linear 1s ;
+       width: 100%;
+    
+       background-color: #02020299;
+       left: 0;
+       top:85px;
         li,select{
              margin:0;
         top:0;
@@ -142,6 +149,12 @@ const SHeader = styled.header`
        
  
         }
+        li.active a{
+                
+               
+                border:none;
+            
+    }
     }
     .invisible{
         display: none;
