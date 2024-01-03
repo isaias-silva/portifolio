@@ -128,7 +128,7 @@ const SHeader = styled.header`
         transition: linear 1s ;
        width: 100%;
     
-       background-color: #02020299;
+    
        left: 0;
        top:85px;
         li,select{
