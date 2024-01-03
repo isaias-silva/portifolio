@@ -15,9 +15,6 @@ export default function Project(project: Iproject) {
                         const [entry] = entries
                         if (entry.isIntersecting) {
                                 elementoAtual?.classList.add('neon');
-                        }else{
-                                elementoAtual?.classList.remove('neon');
-
                         }
                 };
 
