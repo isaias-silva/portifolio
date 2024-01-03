@@ -23,6 +23,7 @@ background-size: cover;
     position:fixed;
     background-color: #000;
     background-image: url('background.png');
+    background-attachment: fixed;
     filter: opacity(0.6);
   
     width: 100%;
@@ -83,6 +84,7 @@ background-size: cover;
 }
   @media screen and (max-width: 745px){
   body{
+    background-attachment: fixed;
     background-image:url('https://i.pinimg.com/originals/9f/2e/e6/9f2ee60cc592305f22bf2346848e06f6.jpg');
 
   }
