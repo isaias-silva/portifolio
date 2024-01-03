@@ -1,9 +1,11 @@
 import styled from 'styled-components'
-const Ssection =styled.section`
+const Ssection = styled.section.attrs(props => {
+    size: Number;
+})`
 
 background-color: #00000099;
-width: 90%;
-min-height: 500px;
+width: ${(props)=>props.size||90}%;
+
 margin: auto;
 margin-top: 100px;
 margin-bottom: 50px;
@@ -29,30 +31,38 @@ a{
 
 
 img.wall{
-   width: 50%;
+  
   
     border-radius: 10px;
     position: absolute ;
-    top:110px;
+width: 50%;
     right:15px;
     opacity:1;
 
 }
 img.wall.experience{
-    top:15px;
+    top:0;
   right: 0;
-  width: 40%;
+  height: 100%;
+  width: auto;
   
 }
+h3.large{
+    font-size: 28px;
+   }
 .blox{
     height: 100%;
-    padding: 20px;
+    padding: 10px;
     width: 40%;
     min-height: 100%;
    p{
-    font-size: 18px;
+    font-size: 16px;
     text-align: justify;
    }
+   p.large{
+    font-size:18px;
+   }
+ 
     
 }
 

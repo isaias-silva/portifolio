@@ -56,8 +56,8 @@
     "type": "back",
     "title": "jojoapi",
      "linkRepo": "https://github.com/isaias-silva/jojoapi",
-    "img": "https://camo.githubusercontent.com/ad552f7c020176e7670efa9f90470be3556d4b71fb13eb241c8c4a75ddca7002/68747470733a2f2f766f636573616269616e696d652e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032302f30332f4a6f4a6f732d42697a617272652d416476656e747572652d4a6f6a6f2d4a6f65737461722d4a6f686e6e792d4a6f65737461722d4a6f6e617468616e2d4a6f65737461722d313133393434392d77616c6c686572652e636f6d5f2e6a7067",
-    "resume": "api que retorna personagens 'stands' do mangá JoJo`s Bizarre adventures, desenvolvido com Javascript(nodejs) ultilizando express, conexão a banco de dados mongo e conhecimento em requisições http.",
+    "img": "https://www.arkade.com.br/wp-content/uploads/2023/03/509145-JoJos-Bizarre-Adventure-Jonathan-Joestar-Joseph1-1050x591.jpg",
+      "resume": "api que retorna personagens 'stands' do mangá JoJo`s Bizarre adventures, desenvolvido com Javascript(nodejs) ultilizando express, conexão a banco de dados mongo e conhecimento em requisições http.",
     "stack": ["typescript", "express", "docker", "mysql"]
   },
 

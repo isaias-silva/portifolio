@@ -1,25 +1,23 @@
 [
   {
-    "title": "Essia",
-    "position": "Internship",
-    "img": "https://inovacao.faber-castell.com.br/wp-content/uploads/2022/06/logo-essia.png",
+    "title": "Internship at Essia",
+    "position": "Software Developer - Intern",
     "period": "2021 ~ 2022",
-    "description": "Internship in the field of computer science, tasks included: creating XML pages, styling with CSS, and editing images."
+    "img": "https://inovacao.faber-castell.com.br/wp-content/uploads/2022/06/logo-essia.png",
+    "description": "During my internship at Essia, I had the opportunity to enhance my skills in the field of computer science. My main responsibilities included creating XML pages, applying styles using CSS, and editing images. This experience provided a practical learning environment and contributed to the development of my technical competencies."
   },
   {
-    "title": "Blend Group",
+    "title": "Freelancer at Aricode",
+    "position": "Fullstack TypeScript Developer - Freelancer",
     "period": "2022",
-    "img": "https://grupoblend.com.br/images/cases/evento-futuro.jpg",
-
-    "position": "Frontend Jr",
-    "description": "Development of web pages using frameworks such as Next.js, React.js, and Vue.js."
-  },
-  {
-    "title": "Aricode",
-    "position": "Freelancer",
     "img": "aricode.jpg",
-
+    "description": "As a freelancer at Aricode, I worked as a Fullstack TypeScript developer. My responsibilities included developing server applications, creating engaging graphical interfaces, and implementing solutions for automations. This experience challenged me to apply my skills in a versatile manner, contributing to diverse projects and enhancing my proficiency in fullstack development."
+  },
+  {
+    "title": "Frontend Jr at Grupo Blend",
+    "position": "Junior Frontend Developer",
     "period": "2022",
-    "description": "Activities as a fullstack Typescript developer, involved in developing applications for servers, graphical interfaces, and automations."
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgvKDjlfem4rIp_Ak7oE4gsKCBDH3VDhEye-UykCmm3x6qE4vSnDChlDcKqC9qG0HXa5g&usqp=CAU",
+    "description": "In my role as a Junior Frontend Developer at Grupo Blend, I had the opportunity to work on web page development. I used modern frameworks such as Next.js, React.js, and Vue.js to create interactive and responsive interfaces. This experience allowed me to deepen my knowledge in frontend technologies and effectively collaborate on dynamic and innovative projects."
   }
 ]

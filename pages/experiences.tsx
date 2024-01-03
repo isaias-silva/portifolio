@@ -23,13 +23,13 @@ export default function Exp() {
         </Head>
         {experiences.reverse().map((exp) => {
 
-            return <Ssection key={exp.title} >
+            return <Ssection key={exp.title} size={70} >
 
-                    <h3>{exp.title}</h3>
+                    <h3 className="large">{exp.title}</h3>
                 <div className="blox">
                     <span>{exp.period} - </span>
                     <span>{exp.position}</span>
-                    <p>{exp.description}</p>
+                    <p className="large">{exp.description}</p>
                 </div>
                 <img src={exp.img} alt="image" className="wall experience" />
 
