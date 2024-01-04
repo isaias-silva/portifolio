@@ -3,11 +3,11 @@ import styled from 'styled-components'
 const SHeader = styled.header`
     width: 100%;
     display: flex;
-    position: fixed;
-   
+    position:fixed;
     top:0;
     justify-content: space-between;
-    background-color: #02020299;
+    transition: 0.3s linear;
+    background-color:#00000060 ;
   backdrop-filter: blur(10px);
     border-bottom: 1px solid #2F2F2F;
 

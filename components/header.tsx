@@ -3,7 +3,7 @@ import Link from "next/link";
 import SHeader from "../styledComponents/sHeader";
 import Image from "next/image"
 import logo from "../public/logo.png"
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useRouter } from "next/router";
 
@@ -17,9 +17,10 @@ export default function Header() {
 
     const refPath = router.pathname
 
-    console.log(refPath)
+
+  
     return <SHeader>
-        <div className="title">
+        <div className="title" >
             <Link href={'/'}>
                 <a>           <img src={logo.src} alt="logo" />
                     <h1><span className="txt white">I</span>saías <span className="txt white">s</span>antos</h1>
@@ -46,10 +47,10 @@ export default function Header() {
                 <li className={refPath == '/projects' ? 'active' : 'normal'}>
                     <Link href={"/projects"} >{t('pharses.projects')}</Link>
                 </li>
-           <li className={refPath=='/experiences'?'active':'normal'}>
-                <Link href={'/experiences'}>{t('pharses.experience')}</Link>
+                <li className={refPath == '/experiences' ? 'active' : 'normal'}>
+                    <Link href={'/experiences'}>{t('pharses.experience')}</Link>
 
-           </li>
+                </li>
 
             </ul>
 

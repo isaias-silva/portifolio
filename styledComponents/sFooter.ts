@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 const Sfooter=styled.footer`
-background-color: black;
+background-color: #00000080;
 position: relative;
 width: 100%;
 height: 40px;

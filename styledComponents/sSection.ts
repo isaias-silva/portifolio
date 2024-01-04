@@ -8,7 +8,7 @@ background-color: #00000099;
 width: ${(props) => props.size || 90}%;
 
 margin: auto;
-margin-top: 100px;
+margin-top: 90px;
 margin-bottom: 50px;
 color:#fff;
 border-radius: 10px;
