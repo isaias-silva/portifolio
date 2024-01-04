@@ -11,6 +11,7 @@ export default function Layout({ children }: any) {
   
     <Header />
     {children}
+    
     <Footer />
   </>
 }

@@ -1,11 +1,28 @@
 
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Iproject } from "../interfaces/Iproject";
 import Ssection from "../styledComponents/sSection";
-import langs from '../public/locale/langs.json'
-export default function Project(project: Iproject) {
+import { useTranslation } from "react-i18next";
+import Boxmsg from "./boxMsg";
 
+type Stack = { img?: string, desc?: string, name?: string }
+export default function Project(project: Iproject) {
+        const { t } = useTranslation()
+        const langs: Array<Stack> = t('langs', { returnObjects: true })
+
+
+        const [text, setText] = useState<string>()
+        const [icon, setIco] = useState<string>()
+        const [title, setTitle] = useState<string>()
+        const [vis, setVis] = useState<boolean>()
+
+        function check(index: number) {
+                setText(langs[index].desc)
+                setTitle(langs[index].name)
+                setIco(langs[index].img)
+                setVis(true)
+        }
         const element = useRef<any>()
         useEffect(() => {
                 const elementoAtual = element.current;
@@ -31,45 +48,60 @@ export default function Project(project: Iproject) {
                         }
                 };
         }, [element])
-        return <Ssection>
-                <img className="wall" src={project.img} alt="thumb" />
-                <div className='blox' ref={element}>
+        return <>
+                <Ssection size={80}>
 
-                        <h2>{project.title}</h2>
-                        <div className="stack-group">
-                                {project.stack.map((stack) => {
-                                        const item = langs.find(value => value.name == stack)
-                                        return <div className="image" key={stack}>
-                                                <img src={item?.img} />
 
-                                        </div>
-                                })}
+
+                        <div className="wall-block">
+                                <img src={project.img} alt="thumb" />
+                                <div className="stack-group">
+                                        {project.stack.map((stack) => {
+
+                                                const item = langs.find(value => value.name == stack)
+                                                if (!item) {
+                                                        return <></>
+                                                }
+                                                return <div className="conhecimento" key={item?.name} onClick={() => { check(langs.indexOf(item)) }}>
+                                                        <img src={item?.img} alt="image" title={item?.name} /></div>
+                                        })}
+                                </div>
+
                         </div>
-                        <br />
-                        <div className="legend" >
-                                {project.element}
-                                {
-                                        project.link ? <div className="exp" >
-                                                <h3>link:</h3>
-                                                <p>
+                        <div className='blox' ref={element}>
 
-                                                        <a href={project.link}
+                                <h2>{project.title}</h2>
+
+                                <br />
+                                <div className="legend" >
+                                        {project.element}
+                                        {
+                                                project.link ? <div className="exp" >
+                                                        <h3>link:</h3>
+                                                        <p>
+
+                                                                <a href={project.link}
+                                                                        target={'_blank'}
+                                                                        rel="noreferrer">{project.link}</a>
+                                                        </p>
+                                                </div> : null
+                                        }
+                                        <div className="exp"   >
+                                                <h3>repositório:</h3>
+                                                <p>
+                                                        <a href={project.linkRepo}
                                                                 target={'_blank'}
-                                                                rel="noreferrer">{project.link}</a>
+                                                                rel="noreferrer">{project.linkRepo}</a>
                                                 </p>
-                                        </div> : null
-                                }
-                                <div className="exp"   >
-                                        <h3>repositório:</h3>
-                                        <p>
-                                                <a href={project.linkRepo}
-                                                        target={'_blank'}
-                                                        rel="noreferrer">{project.linkRepo}</a>
-                                        </p>
+                                        </div>
                                 </div>
                         </div>
-                </div>
 
-        </Ssection>
 
+                </Ssection>
+                {
+                        vis ? <Boxmsg onClose={async () => setVis(false)} text={text} icon={icon} title={title}></Boxmsg> : null
+                }
+
+        </>
 }

@@ -1,7 +1,7 @@
 import Project from "../components/project";
 import Section from "../components/section";
 import { Iproject } from "../interfaces/Iproject";
-import projectsData from "../public/locale/projects.json"
+
 import { Router, useRouter } from "next/router";
 import Head from "next/head";
 import Erro from "../components/erro";
@@ -20,8 +20,9 @@ type ProjectRender = {
 export default function Proj() {
     const { t } = useTranslation()
 
-    const [projectState, setProjectState] = useState<ProjectRender[]>([])
-    useEffect(() => {
+    const projectsData:any[]=t('projects',{returnObjects:true})
+  
+
         const projectNow: ProjectRender[] = projectsData
             .map((value) => {
                 return {
@@ -35,8 +36,8 @@ export default function Proj() {
                 }
             })
 
-        setProjectState(projectNow)
-    }, [])
+    
+   
 
 
     return <>
@@ -48,7 +49,7 @@ export default function Proj() {
 
         {
 
-            projectState.map((x, i) => {
+            projectNow.map((x, i) => {
                 return <Project key={x.title}
                     {...x}
                 />

@@ -13,7 +13,7 @@ import SminSection from "../styledComponents/sMinSection";
 type Stack = { img?: string, desc?: string, name?: string }
 
 export default function Section(post: Ipost) {
-        const { t, ready, i18n } = useTranslation()
+        const { t } = useTranslation()
 
         const langs: Array<Stack> = t('langs', { returnObjects: true })
 

@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 const Ssection = styled.section.attrs(props => {
     size: Number;
+
 })`
 
 background-color: #00000099;
-width: ${(props)=>props.size||90}%;
+width: ${(props) => props.size || 90}%;
 
 margin: auto;
 margin-top: 100px;
@@ -13,7 +14,7 @@ color:#fff;
 border-radius: 10px;
 box-shadow: 3px 3px 4px #000;
 position: relative;
-overflow: hidden;
+overflow:hidden;
 padding: 15px;
 backdrop-filter: blur(4px);
 
@@ -30,9 +31,7 @@ a{
 }
 
 
-img.wall{
-  
-  
+img.wall, .wall-block{
     border-radius: 10px;
     position: absolute ;
 width: 50%;
@@ -47,6 +46,19 @@ img.wall.experience{
   width: auto;
   
 }
+.wall-block{
+   
+    display:flex;
+  flex-direction:column-reverse;
+  align-items: center;
+  justify-content: center;
+ 
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
 h3.large{
     font-size: 28px;
    }
@@ -84,35 +96,28 @@ h3.large{
     }
 }
 .stack-group{
-    width: 95%;
-    min-height: 40px;
+    width: 100%;
+    min-height: 30px;
     margin: 10px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 
-    .image{
+    .conhecimento{
       margin: 8px;
     img{
-        width: 40px;
+        width: 50px;
+        transition: ease-in 0.1s;
+        :hover{
+            cursor: pointer;
+            transform: scale(1.2)
+        }
     }
     }
     
 }
-.perfil{
-    overflow: hidden;
-    width: 340px;
-    height: 340px;
-    border-radius: 100%;
-    float: right;
-    position: relative;
-    border: 6px solid #00000099;
-    box-sizing: border-box;
-
-
-    }
-    .stack{
+.stack{
         display: flex;
         flex-wrap: wrap;
         width: 40%;
@@ -127,6 +132,19 @@ h3.large{
             }
         }
     }
+.perfil{
+    overflow: hidden;
+    width: 340px;
+    height: 340px;
+    border-radius: 100%;
+    float: right;
+    position: relative;
+    border: 6px solid #00000099;
+    box-sizing: border-box;
+
+
+    }
+   
     .contacts{
         display: flex;
         width: 50%;
@@ -139,7 +157,7 @@ h3.large{
  
    
     @media screen and (max-width: 745px){
-        width:90%;
+        width:99%;
         padding:0;
         text-align: center;
         padding-bottom:50px;
@@ -158,11 +176,14 @@ h3.large{
                     }
                 }
 
-                img.wall{
+                img.wall, .wall-block{
                     width: 100%;
                     position: relative;
                 margin: auto;
                 left:0;
+                }
+                .wall-block{
+                    margin-bottom: 50px;
                 }
 .blox{
     left:0;
@@ -171,7 +192,9 @@ h3.large{
     padding:0;
     position:relative;
     margin: 0;
+    p{ text-align:center;}
     p.large{
+       
     padding:15px;
     font-size: 16px;
    }
@@ -205,7 +228,7 @@ h3.large{
                     margin: auto;
                  
                     margin-bottom: 20px;
-                a{
+                p{
                     text-align: center;
 width: 100%;
                 } 

@@ -31,8 +31,7 @@
     "title": "floatbook",
     "linkRepo": "https://github.com/isaias-silva/floatbook-frontend",
     "img": "https://i.ibb.co/VQvQV22/Captura-de-tela-de-2022-10-23-14-01-42.png",
-    "resume": "interface inspirada no facebook feita com React.",
-    "stack": ["react", "typescript", "css"]
+    "resume": "Uma interface cativante inspirada no Facebook, meticulosamente desenvolvida utilizando React. O projeto 'floatbook' proporciona uma experiência visual envolvente, apresentando uma estrutura semelhante à da popular rede social. Com a combinação de React, TypeScript e CSS, a aplicação não só replica a estética do Facebook, mas também incorpora a dinâmica de interação e navegação característica da plataforma.",    "stack": ["react", "typescript", "css"]
   },
   {
     "type": "front",
@@ -55,18 +54,16 @@
   {
     "type": "back",
     "title": "jojoapi",
-     "linkRepo": "https://github.com/isaias-silva/jojoapi",
+    "linkRepo": "https://github.com/isaias-silva/jojoapi",
     "img": "https://www.arkade.com.br/wp-content/uploads/2023/03/509145-JoJos-Bizarre-Adventure-Jonathan-Joestar-Joseph1-1050x591.jpg",
-      "resume": "api que retorna personagens 'stands' do mangá JoJo`s Bizarre adventures, desenvolvido com Javascript(nodejs) ultilizando express, conexão a banco de dados mongo e conhecimento em requisições http.",
-    "stack": ["typescript", "express", "docker", "mysql"]
+    "resume": "A API 'jojoapi' é uma solução completa que proporciona informações abrangentes sobre os personagens 'stands' do mangá JoJo's Bizarre Adventures. Desenvolvida com JavaScript (Node.js), TypeScript, Express, e utilizando um banco de dados MySQL para armazenamento, esta aplicação é uma fusão de eficiência e robustez. Com uma sólida base em requisições HTTP, a jojoapi oferece uma experiência de consulta ágil e confiável para os fãs da obra, garantindo uma interação suave e dados precisos sobre os fascinantes personagens do universo JoJo." ,   "stack": ["typescript", "express", "docker", "mysql"]
   },
-
   {
     "type": "back",
     "title": "scrapApi",
     "linkRepo": "https://github.com/isaias-silva/scrapy-api",
     "img": "https://miro.medium.com/max/641/1*4GVSbbdBhWr73IgBykO5hA.png",
-    "resume": "Api que faz raspagem de dados (webScraping), do site de frases 'pensador' de determinado tema(escolhido na própria requisição) e retorna um Json com todas as frases do tema escolhido feito com Typescript e Puppeteer.",
+    "resume": "Api que realiza a extração de dados (web scraping) a partir do site de frases 'Pensador'. A funcionalidade permite a escolha de um tema específico durante a requisição, retornando um JSON contendo todas as frases associadas ao tema selecionado. Desenvolvida com TypeScript e Puppeteer, essa aplicação proporciona uma maneira eficiente de obter conteúdo inspirador e relevante de acordo com as preferências do usuário.",
     "stack": ["typescript", "express"]
   },
   {
@@ -74,16 +71,14 @@
     "title": "sophy-bot",
     "linkRepo": "https://github.com/isaias-silva/sophy-bot",
     "img": "https://umnico-cdn.com/production/landing/en-article25.png",
-    "resume": "chatbot de whatsapp, que administra grupos, baixa e envia músicas e vídeos do youtube, cria figurinhas, remove e adiciona membros e remove propagandas. feito em Typescript.",
-    "stack": ["typescript", "docker", "mongodb", "nodejs"]
+    "resume": "O 'sophy-bot' é um chatbot avançado para WhatsApp, projetado para simplificar a gestão de grupos. Desenvolvido com maestria em TypeScript, este bot multifuncional não apenas administra grupos, mas também oferece recursos como o download e envio de músicas e vídeos do YouTube diretamente pelo WhatsApp. Além disso, o 'sophy-bot' pode criar figurinhas personalizadas, realizar a adição e remoção de membros, e ainda remover propagandas indesejadas, proporcionando uma experiência aprimorada no ambiente do WhatsApp.",    "stack": ["typescript", "docker", "mongodb", "nodejs"]
   },
   {
     "type": "auto",
     "title": "instabot",
     "linkRepo": "https://github.com/isaias-silva/instabot",
     "img": "https://socialpros.co/wp-content/uploads/2018/12/breakfast-lunch-www.brunch.com-1.png",
-
-    "resume": "bot que busca engajar perfil do instagram de forma orgânica, seguindo pessoas, feito com Javascript e Puppeteer.",
+    "resume": "O 'instabot' é uma poderosa ferramenta desenvolvida para impulsionar o engajamento orgânico de perfis no Instagram. Criado com maestria em JavaScript e utilizando a eficácia do Puppeteer, este bot automatizado realiza ações estratégicas, como seguir pessoas de forma inteligente e direcionada. Com o 'instabot', é possível aumentar a visibilidade e interação de forma orgânica, proporcionando uma presença mais efetiva no cenário digital do Instagram. ",
     "stack": ["javascript", "nodejs"]
   },
   {
@@ -91,7 +86,7 @@
     "title": "smaug Bot",
     "linkRepo": "https://github.com/isaias-silva/smaugbot",
     "img": "https://www.fatosdesconhecidos.com.br/wp-content/uploads/2018/01/Smaug-1-1024x576.jpg",
-    "resume": "aplicação desktop que conecta ao whatsapp e exibe todas as mensagens recebidas em tempo real, onde se pode responder as mensagens direto da aplicação, feito com Typescript usando comunicação via websocket e renderização por meio da view engine EJS.",
+    "resume": "O 'smaug Bot' é uma aplicação desktop inovadora que se conecta diretamente ao WhatsApp, exibindo todas as mensagens recebidas em tempo real. Desenvolvido com maestria em TypeScript, esta aplicação utiliza comunicação via WebSocket para garantir uma sincronização instantânea das mensagens. Além disso, a renderização é realizada por meio da view engine EJS, proporcionando uma interface intuitiva e dinâmica. Com o 'smaug Bot', é possível responder às mensagens diretamente pela aplicação, oferecendo uma experiência de interação mais eficiente.",
     "stack": ["typescript", "express"]
   }
 ]
