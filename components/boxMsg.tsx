@@ -1,5 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
-import { useState } from "react";
+
 import Sbox from "../styledComponents/sBox";
 
 
