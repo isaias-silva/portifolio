@@ -8,8 +8,8 @@ export default function Boxmsg({ icon, text,title,onClose }: { icon?: string, te
 
     if (icon && text) {
        
-            return <Sbox>
-                <div className="box" onClick={onClose}>
+            return <Sbox onClick={onClose}>
+                <div className="box" >
 
                     <img src={icon} alt="" />
                     <h3>{title}:</h3>
