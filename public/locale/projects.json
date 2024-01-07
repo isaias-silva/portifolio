@@ -21,7 +21,7 @@
     "type": "front",
     "title": "JoJo List React version",
     "link": "https://jojo-list.netlify.app/",
-    "linkRepo": "https://github.com/isaias-silva/jojolist-version-basic-",
+    "linkRepo": "https://github.com/isaias-silva/jojolist-react-version",
     "img": "https://i.ibb.co/y6h136R/Captura-de-tela-de-2022-10-22-15-26-38.png",
     "resume": "aplicação web feita com ReactJs que consome a JoJoApi e exibe todos os 'stands' do mangá JoJo's bizarre Adventure, o projeto é um 're-code' adaptado para React do projeto anterior.",
     "stack": ["react", "javascript", "html", "css"]
