@@ -75,7 +75,7 @@
     "linkRepo": "https://github.com/isaias-silva/sophy-bot",
     "img": "https://umnico-cdn.com/production/landing/en-article25.png",
     "resume": "The 'sophy-bot' is an advanced WhatsApp chatbot designed to simplify group management. Expertly developed in TypeScript, this multifunctional bot not only manages groups but also offers features such as downloading and sending music and videos from YouTube directly through WhatsApp. Additionally, the 'sophy-bot' can create custom stickers, add and remove members, and even remove unwanted ads, providing an enhanced experience in the WhatsApp environment.",
-    "stack": ["typescript", "docker", "mongodb", "nodejs"]
+    "stack": ["typescript", "docker", "nodejs"]
   },
   {
     "type": "auto",
