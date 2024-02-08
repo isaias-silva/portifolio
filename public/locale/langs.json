@@ -15,13 +15,8 @@
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
   },
   {
-    "name": "nodejs",
-    "desc": "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.",
-    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-  },
-  {
     "name": "react",
-    "desc": " React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.",
+    "desc": "React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
   },
   {
@@ -30,14 +25,39 @@
     "img": "https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png"
   },
   {
+    "name": "vuejs",
+    "desc": "Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+  },
+  {
+    "name": "angular",
+    "desc": "Angular é uma plataforma de desenvolvimento para a construção de aplicativos da Web móveis e desktops modernos e escaláveis. É um framework de código aberto mantido pelo Google e uma comunidade de desenvolvedores. Angular oferece uma abordagem baseada em componentes para o desenvolvimento de aplicativos, o que facilita a criação e a manutenção de código.",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg"
+  },
+  {
+    "name": "Tailwind CSS",
+    "desc": "Tailwind CSS é um framework de design CSS de baixo nível e altamente personalizável que permite criar interfaces de usuário únicas e responsivas com facilidade. Diferentemente de outros frameworks CSS, como Bootstrap ou Foundation, o Tailwind não possui componentes pré-construídos. Em vez disso, ele fornece uma extensa lista de classes utilitárias que você pode usar diretamente em seu HTML para estilizar seus elementos. ",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+  },
+  {
     "name": "typescript",
     "desc": "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.",
     "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
   },
   {
+    "name": "nodejs",
+    "desc": "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+  },
+  {
     "name": "express",
     "desc": "Express.js é um framework para Node.js que fornece recursos mínimos para construção de servidores web. Foi lançado como software livre e de código aberto sob a Licença MIT. É um dos mais populares frameworks para servidores em Node.js.",
     "img": "https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234.png"
+  },
+  {
+    "name": "nestjs",
+    "desc": "NestJS é um framework Node.js de código aberto destinado ao desenvolvimento de aplicativos do lado do servidor. Foi criado por Kamil Mysliwiec e lançado em 2017. Sob o capô, por padrão, o NestJS faz uso do framework Express.js, sendo também compatível com o Fastify. Sua arquitetura é fortemente inspirada no Angular.",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg"
   },
   {
     "name": "rust",
@@ -73,16 +93,6 @@
     "name": "mysql",
     "desc": "O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.",
     "img": "https://pngimg.com/uploads/mysql/mysql_PNG11.png"
-  },
-  {
-    "name": "vuejs",
-    "desc": "Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.",
-    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
-  },
-  {
-    "name": "nestjs",
-    "desc": "NestJS é um framework Node.js de código aberto destinado ao desenvolvimento de aplicativos do lado do servidor. Foi criado por Kamil Mysliwiec e lançado em 2017. Sob o capô, por padrão, o NestJS faz uso do framework Express.js, sendo também compatível com o Fastify. Sua arquitetura é fortemente inspirada no Angular.",
-    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg"
   },
   {
     "name": "spring",
