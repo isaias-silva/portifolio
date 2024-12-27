@@ -22,7 +22,7 @@
   {
     "name": "nextjs",
     "desc": "Next.js is an open-source React front-end development web framework created by Vercel that enables functionalities such as server-side rendering and generating static websites for React-based web applications.",
-    "img": "https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png"
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
   },
   {
     "name": "vuejs",

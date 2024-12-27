@@ -87,6 +87,7 @@ img.wall{
     position: relative;
     border: 6px solid #00000099;
     box-sizing: border-box;
+    background:#00000099;
 
 
     }

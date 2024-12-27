@@ -2,7 +2,7 @@
 import Ssection from "../styledComponents/sSection";
 
 import Image from "next/image";
-import perfil from '../public/perfil.jpeg'
+import perfil from '../public/perfil.png'
 import Ipost from "../interfaces/Ipost";
 import langsJson from "../public/locale/langs.json"
 import Boxmsg from "./boxMsg";
@@ -15,6 +15,7 @@ type Stack = { img?: string, desc?: string, name?: string }
 export default function Section(post: Ipost) {
         const { t } = useTranslation()
 
+        const birthDay = new Date('01/10/2001');
         const langs: Array<Stack> = t('langs', { returnObjects: true })
 
 
@@ -36,6 +37,7 @@ export default function Section(post: Ipost) {
 
                 const softskills: Array<String> = t('pharses.softskillItems', { returnObjects: true })
                 const languages: Array<String> = t('pharses.languagesItems', { returnObjects: true })
+
                 return <> <SminSection>
 
                         <h2>{t("key")}:</h2>
@@ -43,7 +45,7 @@ export default function Section(post: Ipost) {
                                 <Image src={perfil} width={400} height={400} alt='perfil' />
 
                         </div>
-                        <p>{t('pharses.presentation')}</p>
+                        <p>{t('pharses.presentation').replace('YEARS', (new Date().getFullYear() - birthDay.getFullYear()).toString())}</p>
 
                         <h2>{t('pharses.hardskill')}:</h2>
                         <div className="stack">
