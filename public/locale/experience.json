@@ -10,7 +10,7 @@
   {
     "title": "Freelancer na Aricode",
     "position": "Desenvolvedor Fullstack TypeScript - Freelancer",
-    "period": "2022",
+    "period": "2022 ~ 2023",
     "img":"aricode.jpg",
     
     "description": "Como freelancer na Aricode, atuei como desenvolvedor Fullstack TypeScript. Minhas responsabilidades abrangiam o desenvolvimento de aplicações para servidores, a criação de interfaces gráficas envolventes e a implementação de soluções para automações. Essa experiência me desafiou a aplicar minhas habilidades de forma versátil, contribuindo para projetos diversificados e aprimorando minha proficiência em desenvolvimento fullstack."
@@ -18,9 +18,16 @@
 ,  {
   "title": "Frontend Jr no Grupo Blend",
   "position": "Desenvolvedor Frontend Júnior",
-  "period": "2022",
+  "period": "2022 ~ 2024",
   "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgvKDjlfem4rIp_Ak7oE4gsKCBDH3VDhEye-UykCmm3x6qE4vSnDChlDcKqC9qG0HXa5g&usqp=CAU",
   
   "description": "Na minha posição como Desenvolvedor Frontend Júnior no Grupo Blend, tive a oportunidade de trabalhar no desenvolvimento de páginas web. Utilizei frameworks modernos, como Next.js, React.js e Vue.js, para criar interfaces interativas e responsivas. Essa experiência me permitiu aprofundar meus conhecimentos em tecnologias frontend e colaborar efetivamente em projetos dinâmicos e inovadores."
+},
+{
+  "title": "Backend java na Knewin",
+  "position": "Desenvolvedor backend java",
+  "period": "2024",
+  "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5hmeMMZQPi_Dnjxj52vv3R_3-AnvXNdyXhg&s",
+  "description": "Atualmente, atuo como desenvolvedor Java backend na Knewin, onde trabalho com o ecossistema Java e seus principais frameworks. Minha atuação inclui a criação de soluções robustas e escaláveis, com foco em automação de processos, utilização de ferramentas de mensageria, integração de sistemas e tecnologias da AWS."
 }
 ]

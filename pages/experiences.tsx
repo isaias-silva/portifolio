@@ -8,7 +8,7 @@ type Experience = {
     "position": string,
     "period": string,
     "description": string,
-    img:string
+    img: string
 
 }
 export default function Exp() {
@@ -23,15 +23,16 @@ export default function Exp() {
         </Head>
         {experiences.reverse().map((exp) => {
 
-            return <Ssection key={exp.title} size={70} >
+            return <Ssection key={exp.title} size={65} >
+                <img src={exp.img} alt="image" className="wall experience" />
 
-                    <h3 className="large">{exp.title}</h3>
                 <div className="blox">
+                    <h3 className="large">{exp.title}</h3>
                     <span>{exp.period} - </span>
                     <span>{exp.position}</span>
                     <p className="large">{exp.description}</p>
                 </div>
-                <img src={exp.img} alt="image" className="wall experience" />
+
 
             </Ssection>
 

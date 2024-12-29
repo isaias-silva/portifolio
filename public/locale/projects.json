@@ -1,12 +1,10 @@
 [
   {
-    "type": "front",
-    "img": "https://i.ibb.co/gwDKnt9/image.png",
-    "resume": "Landing page feita em NextJs para o sistema de gestão SuperSoft, versão em português e inglês.",
-    "title": "SuperSoft - Landing Page",
-    "link": "https://erwinsystems-supersoft.netlify.app/",
-    "linkRepo": "https://github.com/AricodeLab/supersoft.com",
-    "stack": ["typescript", "nextjs", "css"]
+    "type": "back",
+    "title": "jojoapi",
+    "linkRepo": "https://github.com/isaias-silva/jojoapi",
+    "img": "https://www.arkade.com.br/wp-content/uploads/2023/03/509145-JoJos-Bizarre-Adventure-Jonathan-Joestar-Joseph1-1050x591.jpg",
+    "resume": "A API 'jojoapi' é uma solução completa que proporciona informações abrangentes sobre os personagens 'stands' do mangá JoJo's Bizarre Adventures. Desenvolvida com JavaScript (Node.js), TypeScript, Express, e utilizando um banco de dados MySQL para armazenamento, esta aplicação é uma fusão de eficiência e robustez. Com uma sólida base em requisições HTTP, a jojoapi oferece uma experiência de consulta ágil e confiável para os fãs da obra, garantindo uma interação suave e dados precisos sobre os fascinantes personagens do universo JoJo." ,   "stack": ["typescript", "express", "docker", "mysql"]
   },
   {
     "type": "front",
@@ -16,15 +14,6 @@
     "img": "https://i.ibb.co/FxSc7fM/Whats-App-Image-2022-10-22-at-14-56-14.jpg",
     "resume": "aplicação web que consome a JoJoApi e exibe todos os 'stands' do mangá JoJo's bizarre Adventure, feito com html, css e Js.",
     "stack": ["javascript", "html", "css"]
-  },
-  {
-    "type": "front",
-    "title": "JoJo List React version",
-    "link": "https://jojo-list.netlify.app/",
-    "linkRepo": "https://github.com/isaias-silva/jojolist-react-version",
-    "img": "https://i.ibb.co/y6h136R/Captura-de-tela-de-2022-10-22-15-26-38.png",
-    "resume": "aplicação web feita com ReactJs que consome a JoJoApi e exibe todos os 'stands' do mangá JoJo's bizarre Adventure, o projeto é um 're-code' adaptado para React do projeto anterior.",
-    "stack": ["react", "javascript", "html", "css"]
   },
   {
     "type": "front",
@@ -51,13 +40,7 @@
     "resume": "aplicação web de calculadora ultilizando HTML, CSS, JS e obfuscação de código, uso da lógica matemática para cálculos como:soma, subtração, dividir, multiplicar, potenciação, raiz quadrada e aproximação de pi",
     "stack": ["javascript", "html", "css"]
   },
-  {
-    "type": "back",
-    "title": "jojoapi",
-    "linkRepo": "https://github.com/isaias-silva/jojoapi",
-    "img": "https://www.arkade.com.br/wp-content/uploads/2023/03/509145-JoJos-Bizarre-Adventure-Jonathan-Joestar-Joseph1-1050x591.jpg",
-    "resume": "A API 'jojoapi' é uma solução completa que proporciona informações abrangentes sobre os personagens 'stands' do mangá JoJo's Bizarre Adventures. Desenvolvida com JavaScript (Node.js), TypeScript, Express, e utilizando um banco de dados MySQL para armazenamento, esta aplicação é uma fusão de eficiência e robustez. Com uma sólida base em requisições HTTP, a jojoapi oferece uma experiência de consulta ágil e confiável para os fãs da obra, garantindo uma interação suave e dados precisos sobre os fascinantes personagens do universo JoJo." ,   "stack": ["typescript", "express", "docker", "mysql"]
-  },
+
   {
     "type": "back",
     "title": "scrapApi",

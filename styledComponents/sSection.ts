@@ -17,8 +17,10 @@ position: relative;
 overflow:hidden;
 padding: 15px;
 backdrop-filter: blur(4px);
+display:flex;
+flex-direction: row-reverse;
+justify-content: space-between;
 
-padding-bottom: 0;
 a{
     text-decoration: none;
     color:pink;
@@ -32,8 +34,8 @@ a{
 
 
 img.wall, .wall-block{
+
     border-radius: 10px;
-    position: absolute ;
 width: 50%;
     right:15px;
     opacity:1;
@@ -43,7 +45,7 @@ img.wall.experience{
     top:0;
   right: 0;
   height: 100%;
-  width: auto;
+  width: 400px;
   
 }
 .wall-block{
@@ -160,7 +162,11 @@ h3.large{
         width:99%;
         padding:0;
         text-align: center;
-        padding-bottom:50px;
+    
+        flex-direction:column;
+        img.wall.experience{
+            width:100%;
+        }
         h2{
             border-bottom: 1px inset aqua;
           width: 80%;
@@ -204,11 +210,7 @@ h3.large{
     display:flex;
     justify-content: center
 }
-img.wall.experience{
-    position:relative;
-    width: 80%;
 
-}
 h3.large{
     font-size: 18px;
    }

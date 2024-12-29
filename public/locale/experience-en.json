@@ -9,15 +9,22 @@
   {
     "title": "Freelancer at Aricode",
     "position": "Fullstack TypeScript Developer - Freelancer",
-    "period": "2022",
+    "period": "2022 ~ 2023",
     "img": "aricode.jpg",
     "description": "As a freelancer at Aricode, I worked as a Fullstack TypeScript developer. My responsibilities included developing server applications, creating engaging graphical interfaces, and implementing solutions for automations. This experience challenged me to apply my skills in a versatile manner, contributing to diverse projects and enhancing my proficiency in fullstack development."
   },
   {
     "title": "Frontend Jr at Grupo Blend",
     "position": "Junior Frontend Developer",
-    "period": "2022",
+    "period": "2022 ~ 2024",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgvKDjlfem4rIp_Ak7oE4gsKCBDH3VDhEye-UykCmm3x6qE4vSnDChlDcKqC9qG0HXa5g&usqp=CAU",
     "description": "In my role as a Junior Frontend Developer at Grupo Blend, I had the opportunity to work on web page development. I used modern frameworks such as Next.js, React.js, and Vue.js to create interactive and responsive interfaces. This experience allowed me to deepen my knowledge in frontend technologies and effectively collaborate on dynamic and innovative projects."
+  },
+  {
+    "title": "Java Backend at Knewin",
+    "position": "Java backend developer",
+    "period": "2024",
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5hmeMMZQPi_Dnjxj52vv3R_3-AnvXNdyXhg&s",
+    "description": "I currently work as a Java backend developer at Knewin, where I work with the Java ecosystem and its main frameworks. My work includes creating robust and scalable solutions, focusing on process automation, use of messaging tools, integration of AWS systems and technologies."
   }
 ]
