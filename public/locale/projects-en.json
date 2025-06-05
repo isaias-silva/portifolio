@@ -4,7 +4,7 @@
     "type": "back",
     "title": "jojoapi",
     "linkRepo": "https://github.com/isaias-silva/jojoapi",
-    "img": "https://www.arkade.com.br/wp-content/uploads/2023/03/509145-JoJos-Bizarre-Adventure-Jonathan-Joestar-Joseph1-1050x591.jpg",
+    "img": "https://camo.githubusercontent.com/aff9fe3cbd9f9d541f3ad0115ee643abc7abda5b1cd11e7fe98fd065efd2392b/68747470733a2f2f766f636573616269616e696d652e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032302f30332f4a6f4a6f732d42697a617272652d416476656e747572652d4a6f6a6f2d4a6f65737461722d4a6f686e6e792d4a6f65737461722d4a6f6e617468616e2d4a6f65737461722d313133393434392d77616c6c686572652e636f6d5f2e6a7067",
     "resume": "The 'jojoapi' is a comprehensive solution providing detailed information about the 'stands' characters from JoJo's Bizarre Adventures manga. Developed with JavaScript (Node.js), TypeScript, Express, and utilizing a MySQL database for storage, this application is a fusion of efficiency and robustness. With a strong foundation in HTTP requests, jojoapi offers a fast and reliable query experience for fans, ensuring smooth interaction and accurate data about the fascinating characters of the JoJo universe.",
     "stack": ["typescript", "express", "docker", "mysql"]
   },
@@ -16,14 +16,6 @@
     "img": "https://i.ibb.co/FxSc7fM/Whats-App-Image-2022-10-22-at-14-56-14.jpg",
     "resume": "Web application that consumes JoJoApi and displays all 'stands' from JoJo's Bizarre Adventure manga, built with HTML, CSS, and JavaScript.",
     "stack": ["javascript", "html", "css"]
-  },
-  {
-    "type": "front",
-    "title": "floatbook",
-    "linkRepo": "https://github.com/isaias-silva/floatbook-frontend",
-    "img": "https://i.ibb.co/VQvQV22/Captura-de-tela-de-2022-10-23-14-01-42.png",
-    "resume": "An engaging interface inspired by Facebook, meticulously developed using React. The 'floatbook' project provides a visually immersive experience, presenting a structure similar to the popular social network. Combining React, TypeScript, and CSS, the application not only replicates the aesthetics of Facebook but also incorporates the interaction and navigation dynamics characteristic of the platform.",
-    "stack": ["react", "typescript", "css"]
   },
   {
     "type": "front",
@@ -56,24 +48,8 @@
     "type": "auto",
     "title": "sophy-bot",
     "linkRepo": "https://github.com/isaias-silva/sophy-bot",
-    "img": "https://umnico-cdn.com/production/landing/en-article25.png",
+    "img": "https://png.pngtree.com/thumb_back/fh260/background/20230526/pngtree-robot-armor-glowing-green-in-the-dark-image_2639290.jpg",
     "resume": "The 'sophy-bot' is an advanced WhatsApp chatbot designed to simplify group management. Expertly developed in TypeScript, this multifunctional bot not only manages groups but also offers features such as downloading and sending music and videos from YouTube directly through WhatsApp. Additionally, the 'sophy-bot' can create custom stickers, add and remove members, and even remove unwanted ads, providing an enhanced experience in the WhatsApp environment.",
     "stack": ["typescript", "docker", "nodejs"]
-  },
-  {
-    "type": "auto",
-    "title": "instabot",
-    "linkRepo": "https://github.com/isaias-silva/instabot",
-    "img": "https://socialpros.co/wp-content/uploads/2018/12/breakfast-lunch-www.brunch.com-1.png",
-    "resume": "The 'instabot' is a powerful tool developed to boost organic engagement on Instagram profiles. Created masterfully in JavaScript and utilizing the effectiveness of Puppeteer, this automated bot performs strategic actions such as smart and targeted following. With 'instabot', it's possible to increase visibility and interaction organically, providing a more effective presence in the Instagram digital landscape.",
-    "stack": ["javascript", "nodejs"]
-  },
-  {
-    "type": "auto",
-    "title": "smaug Bot",
-    "linkRepo": "https://github.com/isaias-silva/smaugbot",
-    "img": "https://www.fatosdesconhecidos.com.br/wp-content/uploads/2018/01/Smaug-1-1024x576.jpg",
-    "resume": "The 'smaug Bot' is an innovative desktop application that connects directly to WhatsApp, displaying all received messages in real-time. Developed masterfully in TypeScript, this application uses WebSocket communication to ensure instant synchronization of messages. Furthermore, rendering is done through the EJS view engine, providing an intuitive and dynamic interface. With 'smaug Bot', it's possible to respond to messages directly through the application, offering a more efficient interaction experience.",
-    "stack": ["typescript", "express"]
   }
 ]

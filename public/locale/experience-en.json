@@ -3,7 +3,7 @@
     "title": "Internship at Essia",
     "position": "Software Developer - Intern",
     "period": "2021 ~ 2022",
-    "img": "https://inovacao.faber-castell.com.br/wp-content/uploads/2022/06/logo-essia.png",
+    "img": "essia.png",
     "description": "During my internship at Essia, I had the opportunity to enhance my skills in the field of computer science. My main responsibilities included creating XML pages, applying styles using CSS, and editing images. This experience provided a practical learning environment and contributed to the development of my technical competencies."
   },
   {
@@ -24,7 +24,7 @@
     "title": "Java Backend at Knewin",
     "position": "Java backend developer",
     "period": "2024",
-    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5hmeMMZQPi_Dnjxj52vv3R_3-AnvXNdyXhg&s",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5hmeMMZQPi_Dnjxj52vv3R_3-AnvXNdyXhg&s",
     "description": "I currently work as a Java backend developer at Knewin, where I work with the Java ecosystem and its main frameworks. My work includes creating robust and scalable solutions, focusing on process automation, use of messaging tools, integration of AWS systems and technologies."
   }
 ]

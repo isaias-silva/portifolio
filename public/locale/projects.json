@@ -3,8 +3,9 @@
     "type": "back",
     "title": "jojoapi",
     "linkRepo": "https://github.com/isaias-silva/jojoapi",
-    "img": "https://www.arkade.com.br/wp-content/uploads/2023/03/509145-JoJos-Bizarre-Adventure-Jonathan-Joestar-Joseph1-1050x591.jpg",
-    "resume": "A API 'jojoapi' é uma solução completa que proporciona informações abrangentes sobre os personagens 'stands' do mangá JoJo's Bizarre Adventures. Desenvolvida com JavaScript (Node.js), TypeScript, Express, e utilizando um banco de dados MySQL para armazenamento, esta aplicação é uma fusão de eficiência e robustez. Com uma sólida base em requisições HTTP, a jojoapi oferece uma experiência de consulta ágil e confiável para os fãs da obra, garantindo uma interação suave e dados precisos sobre os fascinantes personagens do universo JoJo." ,   "stack": ["typescript", "express", "docker", "mysql"]
+    "img": "https://camo.githubusercontent.com/aff9fe3cbd9f9d541f3ad0115ee643abc7abda5b1cd11e7fe98fd065efd2392b/68747470733a2f2f766f636573616269616e696d652e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032302f30332f4a6f4a6f732d42697a617272652d416476656e747572652d4a6f6a6f2d4a6f65737461722d4a6f686e6e792d4a6f65737461722d4a6f6e617468616e2d4a6f65737461722d313133393434392d77616c6c686572652e636f6d5f2e6a7067",
+    "resume": "A API 'jojoapi' é uma solução completa que proporciona informações abrangentes sobre os personagens 'stands' do mangá JoJo's Bizarre Adventures. Desenvolvida com JavaScript (Node.js), TypeScript, Express, e utilizando um banco de dados MySQL para armazenamento, esta aplicação é uma fusão de eficiência e robustez. Com uma sólida base em requisições HTTP, a jojoapi oferece uma experiência de consulta ágil e confiável para os fãs da obra, garantindo uma interação suave e dados precisos sobre os fascinantes personagens do universo JoJo.",
+    "stack": ["typescript", "express", "docker", "mysql"]
   },
   {
     "type": "front",
@@ -14,13 +15,6 @@
     "img": "https://i.ibb.co/FxSc7fM/Whats-App-Image-2022-10-22-at-14-56-14.jpg",
     "resume": "aplicação web que consome a JoJoApi e exibe todos os 'stands' do mangá JoJo's bizarre Adventure, feito com html, css e Js.",
     "stack": ["javascript", "html", "css"]
-  },
-  {
-    "type": "front",
-    "title": "floatbook",
-    "linkRepo": "https://github.com/isaias-silva/floatbook-frontend",
-    "img": "https://i.ibb.co/VQvQV22/Captura-de-tela-de-2022-10-23-14-01-42.png",
-    "resume": "Uma interface cativante inspirada no Facebook, meticulosamente desenvolvida utilizando React. O projeto 'floatbook' proporciona uma experiência visual envolvente, apresentando uma estrutura semelhante à da popular rede social. Com a combinação de React, TypeScript e CSS, a aplicação não só replica a estética do Facebook, mas também incorpora a dinâmica de interação e navegação característica da plataforma.",    "stack": ["react", "typescript", "css"]
   },
   {
     "type": "front",
@@ -52,24 +46,9 @@
   {
     "type": "auto",
     "title": "sophy-bot",
+    "img": "https://png.pngtree.com/thumb_back/fh260/background/20230526/pngtree-robot-armor-glowing-green-in-the-dark-image_2639290.jpg",
     "linkRepo": "https://github.com/isaias-silva/sophy-bot",
-    "img": "https://umnico-cdn.com/production/landing/en-article25.png",
-    "resume": "O 'sophy-bot' é um chatbot avançado para WhatsApp, projetado para simplificar a gestão de grupos. Desenvolvido com maestria em TypeScript, este bot multifuncional não apenas administra grupos, mas também oferece recursos como o download e envio de músicas e vídeos do YouTube diretamente pelo WhatsApp. Além disso, o 'sophy-bot' pode criar figurinhas personalizadas, realizar a adição e remoção de membros, e ainda remover propagandas indesejadas, proporcionando uma experiência aprimorada no ambiente do WhatsApp.",    "stack": ["typescript", "docker", "mongodb", "nodejs"]
-  },
-  {
-    "type": "auto",
-    "title": "instabot",
-    "linkRepo": "https://github.com/isaias-silva/instabot",
-    "img": "https://socialpros.co/wp-content/uploads/2018/12/breakfast-lunch-www.brunch.com-1.png",
-    "resume": "O 'instabot' é uma poderosa ferramenta desenvolvida para impulsionar o engajamento orgânico de perfis no Instagram. Criado com maestria em JavaScript e utilizando a eficácia do Puppeteer, este bot automatizado realiza ações estratégicas, como seguir pessoas de forma inteligente e direcionada. Com o 'instabot', é possível aumentar a visibilidade e interação de forma orgânica, proporcionando uma presença mais efetiva no cenário digital do Instagram. ",
-    "stack": ["javascript", "nodejs"]
-  },
-  {
-    "type": "auto",
-    "title": "smaug Bot",
-    "linkRepo": "https://github.com/isaias-silva/smaugbot",
-    "img": "https://www.fatosdesconhecidos.com.br/wp-content/uploads/2018/01/Smaug-1-1024x576.jpg",
-    "resume": "O 'smaug Bot' é uma aplicação desktop inovadora que se conecta diretamente ao WhatsApp, exibindo todas as mensagens recebidas em tempo real. Desenvolvido com maestria em TypeScript, esta aplicação utiliza comunicação via WebSocket para garantir uma sincronização instantânea das mensagens. Além disso, a renderização é realizada por meio da view engine EJS, proporcionando uma interface intuitiva e dinâmica. Com o 'smaug Bot', é possível responder às mensagens diretamente pela aplicação, oferecendo uma experiência de interação mais eficiente.",
-    "stack": ["typescript", "express"]
+    "resume": "O 'sophy-bot' é um chatbot avançado para WhatsApp, projetado para simplificar a gestão de grupos. Desenvolvido com maestria em TypeScript, este bot multifuncional não apenas administra grupos, mas também oferece recursos como o download e envio de músicas e vídeos do YouTube diretamente pelo WhatsApp. Além disso, o 'sophy-bot' pode criar figurinhas personalizadas, realizar a adição e remoção de membros, e ainda remover propagandas indesejadas, proporcionando uma experiência aprimorada no ambiente do WhatsApp.",
+    "stack": ["typescript", "docker", "mongodb", "nodejs"]
   }
 ]
