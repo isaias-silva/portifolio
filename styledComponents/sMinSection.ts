@@ -36,15 +36,7 @@ img.wall{
     opacity:1;
 
 }
-img.wall-min{
-    width: 30%;
-  
-    border-radius: 10px;
-    position: absolute ;
-    top:80px;
-    right:25px;
-    opacity:1;
-}
+
 .blox{
     height: 100%;
     padding: 20px;
