@@ -1,5 +1,5 @@
 
-import GlobalStyle from "../styledComponents/globalStyle";
+
 import Footer from "./footer";
 import Header from "./header";
 
