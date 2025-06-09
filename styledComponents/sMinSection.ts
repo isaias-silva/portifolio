@@ -36,7 +36,6 @@ img.wall{
     opacity:1;
 
 }
-
 .blox{
     height: 100%;
     padding: 20px;
