@@ -43,13 +43,5 @@
     "img": "https://miro.medium.com/max/641/1*4GVSbbdBhWr73IgBykO5hA.png",
     "resume": "API that performs data extraction (web scraping) from the 'Pensador' quotes website. The functionality allows choosing a specific theme during the request, returning a JSON containing all quotes associated with the selected theme. Developed with TypeScript and Puppeteer, this application provides an efficient way to obtain inspiring and relevant content according to user preferences.",
     "stack": ["typescript", "express"]
-  },
-  {
-    "type": "auto",
-    "title": "sophy-bot",
-    "linkRepo": "https://github.com/isaias-silva/sophy-bot",
-    "img": "https://png.pngtree.com/thumb_back/fh260/background/20230526/pngtree-robot-armor-glowing-green-in-the-dark-image_2639290.jpg",
-    "resume": "The 'sophy-bot' is an advanced WhatsApp chatbot designed to simplify group management. Expertly developed in TypeScript, this multifunctional bot not only manages groups but also offers features such as downloading and sending music and videos from YouTube directly through WhatsApp. Additionally, the 'sophy-bot' can create custom stickers, add and remove members, and even remove unwanted ads, providing an enhanced experience in the WhatsApp environment.",
-    "stack": ["typescript", "docker", "nodejs"]
   }
 ]
