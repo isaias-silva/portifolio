@@ -6,15 +6,16 @@ export default function Translate() {
 
     const [language, setLanguage] = useState<string>('pt')
 
-    useEffect(()=>{
+    useEffect(() => {
 
         i18n.changeLanguage(language)
-    },[language])
+    }, [language])
     return <>
-        <Sselect defaultValue={language} onChange={(ev)=>setLanguage(ev.target.value)}>
-            <option value="pt">português</option>
-            <option value="en">english</option>
-
+        <Sselect >
+            <select defaultValue={language} onChange={(ev) => setLanguage(ev.target.value)}>
+                <option value="pt">português</option>
+                <option value="en">english</option>
+            </select>
         </Sselect>
     </>
 }

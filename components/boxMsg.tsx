@@ -7,7 +7,7 @@ export default function Boxmsg({ icon, text,title,onClose }: { icon?: string, te
 
     if (icon && text) {
        
-            return <Sbox onClick={onClose}>
+            return <Sbox>
                 <div className="box" >
 
                     <img src={icon} alt="" />
